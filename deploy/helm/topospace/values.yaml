@@ -1,0 +1,22 @@
+
+replicaCount: 3
+image:
+  repository: topospace
+  tag: "3.1"
+  pullPolicy: IfNotPresent
+service:
+  type: ClusterIP
+  port: 80
+resources:
+  requests:
+    cpu: 500m
+    memory: 512Mi
+  limits:
+    cpu: "4"
+    memory: 4Gi
+autoscaling:
+  enabled: true
+  minReplicas: 3
+  maxReplicas: 30
+  targetCPUUtilizationPercentage: 65
+env: {}
