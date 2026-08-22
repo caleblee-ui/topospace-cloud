@@ -1,0 +1,48 @@
+{
+  "runs": 400,
+  "mean_selected": {
+    "memory": 18.1,
+    "tool": 12.8725,
+    "skill": 18.8,
+    "plan": 16.425
+  },
+  "mean_blocked_by_hard_constraints": {
+    "memory": 0,
+    "tool": 9.5275,
+    "skill": 0,
+    "plan": 5.9675
+  },
+  "geometry_family_usage": {
+    "memory": {
+      "nested": 186,
+      "lp": 60,
+      "chebyshev": 143,
+      "owa": 11
+    },
+    "tool": {
+      "nested": 172,
+      "lp": 28,
+      "chebyshev": 191,
+      "owa": 9
+    },
+    "skill": {
+      "nested": 195,
+      "lp": 40,
+      "chebyshev": 151,
+      "owa": 14
+    },
+    "plan": {
+      "nested": 221,
+      "lp": 21,
+      "chebyshev": 155,
+      "owa": 3
+    }
+  },
+  "selected_policy_or_security_violations": {
+    "memory": 0,
+    "tool": 0,
+    "skill": 0,
+    "plan": 0
+  },
+  "note": "Synthetic unified-runtime routing benchmark. Demonstrates shared adaptive geometry plus hard constraint gating across four runtime domains, not production task quality."
+}
