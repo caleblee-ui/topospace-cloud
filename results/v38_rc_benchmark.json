@@ -1,0 +1,15 @@
+{
+  "version": "1.0.0-rc1",
+  "iterations": 5000,
+  "service_error_rate": 0.0,
+  "p50_ms": 0.007952000032673823,
+  "p95_ms": 0.008643000001029577,
+  "p99_ms": 0.015433000044140499,
+  "contract_ok": true,
+  "torus_e2e_visible": [
+    "auth-decision"
+  ],
+  "install_ok": true,
+  "fault_injection_observed_rate": 0.032,
+  "note": "In-process RC soak/fault regression; excludes external network, DB and LLM latency."
+}
