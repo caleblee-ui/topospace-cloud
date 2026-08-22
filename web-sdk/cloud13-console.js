@@ -1,0 +1,1 @@
+class TopoSpaceCloud extends HTMLElement{connectedCallback(){this.innerHTML="<h2>TopoSpace Cloud</h2><p>API Keys · Tenants · Rate Limits · Usage · Billing · Meta-Policy</p><code>POST /v1/chat/completions</code>"}}customElements.define("topospace-cloud",TopoSpaceCloud);
