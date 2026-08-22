@@ -1,0 +1,1 @@
+class TopoSpaceLearnedGraph extends HTMLElement{connectedCallback(){this.innerHTML="<h2>Learned Execution Graph Policy</h2><p>Topology → Path Template → Execution Graph → Reward / Cost / Latency → Learning</p>"}}customElements.define("topospace-learned-graph",TopoSpaceLearnedGraph);
