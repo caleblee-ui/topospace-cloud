@@ -1,0 +1,21 @@
+{
+  "raw_context_tokens": 38700,
+  "optimized_context_tokens": 22600,
+  "context_reduction_pct": 41.60206718346253,
+  "team": [
+    "coding",
+    "security",
+    "test"
+  ],
+  "p50_engine_ms": 0.018017000002146233,
+  "p95_engine_ms": 0.020550999579427298,
+  "health": {
+    "requests": 1000,
+    "cache_hits": 999,
+    "fail_open": 0,
+    "latency_ms_total": 0.1308340001742181,
+    "avg_latency_ms": 0.0001308340001742181,
+    "cache_hit_rate": 0.999
+  },
+  "note": "Engine microbenchmark and deterministic context fixture; not an LLM marketing claim."
+}
