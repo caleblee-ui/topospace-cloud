@@ -1,0 +1,1 @@
+class TopoSpaceRC12 extends HTMLElement{connectedCallback(){this.innerHTML="<h2>TopoSpace 1.2 RC · Meta-Policy Production Runtime</h2><p>Champion · Shadow · Meta Geometry · Model · Path · Promotion · Rollback</p>"}}customElements.define("topospace-rc12",TopoSpaceRC12);
