@@ -1,0 +1,39 @@
+{
+  "token_reduction_pct": 55.06607929515419,
+  "input_token_reduction_pct": 56.94444444444444,
+  "tool_call_reduction_pct": 37.5,
+  "agent_invocation_reduction_pct": 25.0,
+  "latency_reduction_pct": 29.166666666666664,
+  "cost_reduction_pct": 34.61538461538461,
+  "success_delta_pp": 0,
+  "baseline": {
+    "input_tokens": 43200,
+    "output_tokens": 2200,
+    "tool_calls": 8,
+    "agent_invocations": 4,
+    "latency_ms": 12000,
+    "cost_usd": 0.52,
+    "success": true
+  },
+  "optimized": {
+    "input_tokens": 18600,
+    "output_tokens": 1800,
+    "tool_calls": 5,
+    "agent_invocations": 3,
+    "latency_ms": 8500,
+    "cost_usd": 0.34,
+    "success": true
+  },
+  "context_kept": [
+    "task",
+    "tests",
+    "oauth",
+    "auth"
+  ],
+  "team": [
+    "coding",
+    "security",
+    "test"
+  ],
+  "fixture": "synthetic deterministic; external benchmark required before marketing claim"
+}
