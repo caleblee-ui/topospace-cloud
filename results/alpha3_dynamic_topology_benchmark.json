@@ -1,0 +1,7 @@
+{
+  "runs": 500,
+  "top1_planner_accuracy": 1.0,
+  "p95_plan_ms": 0.05367999983718619,
+  "mean_plan_ms": 0.036515641997539205,
+  "note": "Synthetic graph-planning regression; not external workload evidence."
+}
