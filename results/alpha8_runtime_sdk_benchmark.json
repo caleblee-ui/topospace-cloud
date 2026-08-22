@@ -1,0 +1,7 @@
+{
+  "runs": 5000,
+  "mean_full_lifecycle_ms": 0.008050496996838774,
+  "p95_full_lifecycle_ms": 0.008411999260715675,
+  "hooks_per_run": 6,
+  "note": "In-process middleware overhead only; excludes LLM/tool/network/storage latency."
+}
