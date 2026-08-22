@@ -1,0 +1,24 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata: {name: topospace-commercial}
+spec:
+  replicas: 3
+  selector: {matchLabels: {app: topospace-commercial}}
+  template:
+    metadata: {labels: {app: topospace-commercial}}
+    spec:
+      terminationGracePeriodSeconds: 30
+      containers:
+      - name: topospace
+        image: topospace:3.0
+        command: ["python","server/commercial_app.py"]
+        ports: [{containerPort: 8787}]
+        readinessProbe: {httpGet: {path: /readyz, port: 8787}, initialDelaySeconds: 3, periodSeconds: 5}
+        livenessProbe: {httpGet: {path: /healthz, port: 8787}, initialDelaySeconds: 10, periodSeconds: 10}
+        resources: {requests: {cpu: "500m", memory: "512Mi"}, limits: {cpu: "4", memory: "4Gi"}}
+---
+apiVersion: v1
+kind: Service
+metadata: {name: topospace-commercial}
+spec: {selector: {app: topospace-commercial}, ports: [{port: 80, targetPort: 8787}]}
