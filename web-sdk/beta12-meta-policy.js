@@ -1,0 +1,1 @@
+class TopoSpaceMetaPolicy extends HTMLElement{connectedCallback(){this.innerHTML="<h2>TopoSpace Meta-Policy Control Plane</h2><p>Geometry → Model → Execution Path → Feedback</p><p>One AI Execution Optimization Plane</p>"}}customElements.define("topospace-meta-policy",TopoSpaceMetaPolicy);
