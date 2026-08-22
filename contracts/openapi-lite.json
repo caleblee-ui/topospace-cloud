@@ -1,0 +1,29 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "TopoSpace Commercial API",
+    "version": "3.0.0-alpha"
+  },
+  "paths": {
+    "/v1/optimize": {
+      "post": {
+        "summary": "Optimize agent context and team"
+      }
+    },
+    "/healthz": {
+      "get": {
+        "summary": "Liveness"
+      }
+    },
+    "/readyz": {
+      "get": {
+        "summary": "Readiness"
+      }
+    },
+    "/v1/sla": {
+      "get": {
+        "summary": "Runtime SLA snapshot"
+      }
+    }
+  }
+}
