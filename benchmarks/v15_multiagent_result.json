@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "steps": 1,
+  "teams": [
+    [
+      "coding-agent",
+      "security-agent",
+      "test-agent",
+      "frontend-agent"
+    ]
+  ],
+  "drift": [
+    0.9166666666666666
+  ],
+  "reward": [
+    0.5869281045751633
+  ]
+}
