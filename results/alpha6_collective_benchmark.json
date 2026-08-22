@@ -1,0 +1,7 @@
+{
+  "runs": 300,
+  "mean_best_local_score": 0.6170249189276257,
+  "mean_best_with_collective": 0.9581615326571988,
+  "mean_gain": 0.34113661372957316,
+  "note": "Synthetic cross-agent transfer regression; not external multi-agent quality evidence."
+}
