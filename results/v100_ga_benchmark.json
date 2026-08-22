@@ -1,0 +1,11 @@
+{
+  "version": "1.0.0",
+  "iterations": 10000,
+  "service_error_rate": 0.0,
+  "p50_ms": 0.007751999874017201,
+  "p95_ms": 0.00848199988467968,
+  "p99_ms": 0.013549999948736513,
+  "torus_http_e2e": true,
+  "install_ok": true,
+  "note": "GA in-process runtime soak plus local HTTP TorusDB-adapter smoke. External production services are not included."
+}
