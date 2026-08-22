@@ -1,0 +1,13 @@
+{
+  "code": [
+    "auth.py",
+    "oauth.py",
+    "auth_test.py"
+  ],
+  "tools": [
+    "grep"
+  ],
+  "agents": [
+    "security-agent"
+  ]
+}
