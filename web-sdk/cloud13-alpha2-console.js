@@ -1,0 +1,1 @@
+class TopoSpaceCloudA2 extends HTMLElement{connectedCallback(){this.innerHTML="<h2>TopoSpace Cloud alpha2</h2><p>Provider Execution · Streaming · Fallback · Circuit Breaker · Metering · Billing</p>"}}customElements.define("topospace-cloud-a2",TopoSpaceCloudA2);
