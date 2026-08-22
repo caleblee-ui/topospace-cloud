@@ -1,0 +1,2640 @@
+{
+  "records": [
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 0,
+      "success": true,
+      "input_tokens": 47328,
+      "output_tokens": 3701,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14004.406434758166,
+      "cost_usd": 0.6924374746159695,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 0,
+      "success": true,
+      "input_tokens": 26976,
+      "output_tokens": 3479,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10363.260761721043,
+      "cost_usd": 0.4570087332465399,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 1,
+      "success": false,
+      "input_tokens": 49291,
+      "output_tokens": 3529,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14645.302990246098,
+      "cost_usd": 0.6931008467333856,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 1,
+      "success": false,
+      "input_tokens": 28096,
+      "output_tokens": 3317,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10837.524212782113,
+      "cost_usd": 0.45744655884403446,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 2,
+      "success": true,
+      "input_tokens": 48476,
+      "output_tokens": 3660,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14860.65427331543,
+      "cost_usd": 0.6769852888836708,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 2,
+      "success": true,
+      "input_tokens": 27631,
+      "output_tokens": 3441,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10996.884162253418,
+      "cost_usd": 0.4468102906632227,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 3,
+      "success": false,
+      "input_tokens": 47771,
+      "output_tokens": 3676,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14560.043798601231,
+      "cost_usd": 0.6867701802672451,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 3,
+      "success": false,
+      "input_tokens": 27229,
+      "output_tokens": 3456,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10774.432410964911,
+      "cost_usd": 0.4532683189763818,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 4,
+      "success": true,
+      "input_tokens": 47483,
+      "output_tokens": 3551,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14116.591363900405,
+      "cost_usd": 0.6949302919507626,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 4,
+      "success": true,
+      "input_tokens": 27065,
+      "output_tokens": 3338,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10446.277609286299,
+      "cost_usd": 0.4586539926875033,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 5,
+      "success": true,
+      "input_tokens": 47264,
+      "output_tokens": 3711,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14048.769449671849,
+      "cost_usd": 0.6809467997904024,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 5,
+      "success": true,
+      "input_tokens": 26940,
+      "output_tokens": 3489,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10396.089392757169,
+      "cost_usd": 0.4494248878616656,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 6,
+      "success": true,
+      "input_tokens": 46607,
+      "output_tokens": 3591,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14696.628535898715,
+      "cost_usd": 0.6932723999066321,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 6,
+      "success": true,
+      "input_tokens": 26566,
+      "output_tokens": 3376,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10875.50511656505,
+      "cost_usd": 0.45755978393837726,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 7,
+      "success": true,
+      "input_tokens": 49262,
+      "output_tokens": 3700,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14873.07297215248,
+      "cost_usd": 0.6828615608514684,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 7,
+      "success": true,
+      "input_tokens": 28079,
+      "output_tokens": 3478,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 11006.073999392835,
+      "cost_usd": 0.45068863016196914,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 8,
+      "success": true,
+      "input_tokens": 49466,
+      "output_tokens": 3708,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14756.811100805462,
+      "cost_usd": 0.6580558716710377,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 8,
+      "success": true,
+      "input_tokens": 28195,
+      "output_tokens": 3485,
+      "tool_calls": 6,
+      "agent_invocations": 3,
+      "latency_ms": 10920.040214596042,
+      "cost_usd": 0.43431687530288493,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 9,
+      "success": true,
+      "input_tokens": 48800,
+      "output_tokens": 3523,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14274.082152459177,
+      "cost_usd": 0.6983591403331193,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 9,
+      "success": true,
+      "input_tokens": 27816,
+      "output_tokens": 3312,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10562.820792819792,
+      "cost_usd": 0.4609170326198587,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 10,
+      "success": true,
+      "input_tokens": 47798,
+      "output_tokens": 3650,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14354.218608417812,
+      "cost_usd": 0.6990082793189042,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 10,
+      "success": true,
+      "input_tokens": 27245,
+      "output_tokens": 3431,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10622.121770229181,
+      "cost_usd": 0.4613454643504768,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 11,
+      "success": true,
+      "input_tokens": 46920,
+      "output_tokens": 3587,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14808.884540055868,
+      "cost_usd": 0.6808979120221483,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 11,
+      "success": true,
+      "input_tokens": 26744,
+      "output_tokens": 3372,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10958.574559641342,
+      "cost_usd": 0.44939262193461793,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 12,
+      "success": true,
+      "input_tokens": 48127,
+      "output_tokens": 3635,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14195.14554655112,
+      "cost_usd": 0.6729025171309138,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 12,
+      "success": true,
+      "input_tokens": 27432,
+      "output_tokens": 3417,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10504.407704447829,
+      "cost_usd": 0.4441156613064031,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 13,
+      "success": false,
+      "input_tokens": 47288,
+      "output_tokens": 3567,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14726.935502947872,
+      "cost_usd": 0.6949058219427765,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 13,
+      "success": false,
+      "input_tokens": 26954,
+      "output_tokens": 3353,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10897.932272181424,
+      "cost_usd": 0.45863784248223255,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 14,
+      "success": true,
+      "input_tokens": 49517,
+      "output_tokens": 3605,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14643.84254197095,
+      "cost_usd": 0.6656774643284873,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 14,
+      "success": true,
+      "input_tokens": 28224,
+      "output_tokens": 3389,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10836.443481058503,
+      "cost_usd": 0.4393471264568016,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 15,
+      "success": true,
+      "input_tokens": 47060,
+      "output_tokens": 3585,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14498.038128959215,
+      "cost_usd": 0.697214451906021,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 15,
+      "success": true,
+      "input_tokens": 26824,
+      "output_tokens": 3370,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10728.548215429819,
+      "cost_usd": 0.4601615382579739,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 16,
+      "success": false,
+      "input_tokens": 46820,
+      "output_tokens": 3483,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14680.651635394206,
+      "cost_usd": 0.6856423009147328,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 16,
+      "success": false,
+      "input_tokens": 26687,
+      "output_tokens": 3274,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10863.682210191711,
+      "cost_usd": 0.4525239186037236,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 17,
+      "success": true,
+      "input_tokens": 48430,
+      "output_tokens": 3625,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14413.893790400456,
+      "cost_usd": 0.6759003992780744,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 17,
+      "success": true,
+      "input_tokens": 27605,
+      "output_tokens": 3408,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10666.281404896337,
+      "cost_usd": 0.44609426352352916,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 18,
+      "success": true,
+      "input_tokens": 47416,
+      "output_tokens": 3577,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14141.203363070434,
+      "cost_usd": 0.6777596630571961,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 18,
+      "success": true,
+      "input_tokens": 27027,
+      "output_tokens": 3362,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10464.490488672122,
+      "cost_usd": 0.4473213776177495,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "baseline",
+      "run_index": 19,
+      "success": true,
+      "input_tokens": 49265,
+      "output_tokens": 3574,
+      "tool_calls": 10,
+      "agent_invocations": 4,
+      "latency_ms": 14391.737412524115,
+      "cost_usd": 0.6835184448019286,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "coding-1",
+      "mode": "topospace",
+      "run_index": 19,
+      "success": true,
+      "input_tokens": 28081,
+      "output_tokens": 3359,
+      "tool_calls": 7,
+      "agent_invocations": 3,
+      "latency_ms": 10649.885685267845,
+      "cost_usd": 0.45112217356927287,
+      "extra": {
+        "workload": "coding",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 0,
+      "success": true,
+      "input_tokens": 37085,
+      "output_tokens": 2821,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11877.580727791337,
+      "cost_usd": 0.555591015610925,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 0,
+      "success": true,
+      "input_tokens": 22622,
+      "output_tokens": 2679,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9145.737160399329,
+      "cost_usd": 0.38891371092764754,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 1,
+      "success": true,
+      "input_tokens": 34950,
+      "output_tokens": 2841,
+      "tool_calls": 13,
+      "agent_invocations": 3,
+      "latency_ms": 11605.198461634094,
+      "cost_usd": 0.541200262886623,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 1,
+      "success": true,
+      "input_tokens": 21319,
+      "output_tokens": 2699,
+      "tool_calls": 8,
+      "agent_invocations": 2,
+      "latency_ms": 8936.002815458252,
+      "cost_usd": 0.3788401840206361,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 2,
+      "success": true,
+      "input_tokens": 36937,
+      "output_tokens": 2747,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11468.716832186683,
+      "cost_usd": 0.5460648518926945,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 2,
+      "success": true,
+      "input_tokens": 22531,
+      "output_tokens": 2610,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 8830.911960783746,
+      "cost_usd": 0.38224539632488613,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 3,
+      "success": true,
+      "input_tokens": 36446,
+      "output_tokens": 2760,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 12075.888037673178,
+      "cost_usd": 0.5505104395171675,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 3,
+      "success": true,
+      "input_tokens": 22232,
+      "output_tokens": 2622,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9298.433789008348,
+      "cost_usd": 0.3853573076620172,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 4,
+      "success": true,
+      "input_tokens": 35614,
+      "output_tokens": 2762,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11496.27709318886,
+      "cost_usd": 0.5378729307803479,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 4,
+      "success": true,
+      "input_tokens": 21724,
+      "output_tokens": 2624,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 8852.133361755423,
+      "cost_usd": 0.37651105154624354,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 5,
+      "success": true,
+      "input_tokens": 34814,
+      "output_tokens": 2835,
+      "tool_calls": 13,
+      "agent_invocations": 3,
+      "latency_ms": 11424.246594019818,
+      "cost_usd": 0.5525695301532486,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 5,
+      "success": true,
+      "input_tokens": 21236,
+      "output_tokens": 2693,
+      "tool_calls": 8,
+      "agent_invocations": 2,
+      "latency_ms": 8796.66987739526,
+      "cost_usd": 0.386798671107274,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 6,
+      "success": true,
+      "input_tokens": 35615,
+      "output_tokens": 2872,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 12199.72390225797,
+      "cost_usd": 0.5438588210867882,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 6,
+      "success": true,
+      "input_tokens": 21725,
+      "output_tokens": 2728,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9393.787404738638,
+      "cost_usd": 0.3807011747607517,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 7,
+      "success": true,
+      "input_tokens": 36612,
+      "output_tokens": 2714,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11693.89263117882,
+      "cost_usd": 0.5499449342911431,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 7,
+      "success": true,
+      "input_tokens": 22333,
+      "output_tokens": 2578,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9004.29732600769,
+      "cost_usd": 0.3849614540038001,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 8,
+      "success": true,
+      "input_tokens": 36675,
+      "output_tokens": 2829,
+      "tool_calls": 13,
+      "agent_invocations": 3,
+      "latency_ms": 12180.39929239776,
+      "cost_usd": 0.5585803672182301,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 8,
+      "success": true,
+      "input_tokens": 22371,
+      "output_tokens": 2687,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9378.907455146276,
+      "cost_usd": 0.3910062570527611,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 9,
+      "success": true,
+      "input_tokens": 35537,
+      "output_tokens": 2726,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11886.719263896877,
+      "cost_usd": 0.5552483207351074,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 9,
+      "success": true,
+      "input_tokens": 21677,
+      "output_tokens": 2590,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9152.773833200596,
+      "cost_usd": 0.38867382451457516,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 10,
+      "success": true,
+      "input_tokens": 34833,
+      "output_tokens": 2826,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11842.650898789325,
+      "cost_usd": 0.5350950361758178,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 10,
+      "success": true,
+      "input_tokens": 21248,
+      "output_tokens": 2685,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9118.841192067779,
+      "cost_usd": 0.37456652532307244,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 11,
+      "success": true,
+      "input_tokens": 35417,
+      "output_tokens": 2722,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11618.235616379054,
+      "cost_usd": 0.5336221286810778,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 11,
+      "success": true,
+      "input_tokens": 21604,
+      "output_tokens": 2586,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 8946.041424611873,
+      "cost_usd": 0.3735354900767544,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 12,
+      "success": true,
+      "input_tokens": 35391,
+      "output_tokens": 2825,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 12033.047870209524,
+      "cost_usd": 0.5523952081891887,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 12,
+      "success": true,
+      "input_tokens": 21589,
+      "output_tokens": 2684,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9265.446860061335,
+      "cost_usd": 0.3866766457324321,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 13,
+      "success": true,
+      "input_tokens": 35925,
+      "output_tokens": 2803,
+      "tool_calls": 13,
+      "agent_invocations": 3,
+      "latency_ms": 12100.217837547716,
+      "cost_usd": 0.5350052683355316,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 13,
+      "success": true,
+      "input_tokens": 21914,
+      "output_tokens": 2662,
+      "tool_calls": 8,
+      "agent_invocations": 3,
+      "latency_ms": 9317.16773491174,
+      "cost_usd": 0.37450368783487215,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 14,
+      "success": true,
+      "input_tokens": 35384,
+      "output_tokens": 2742,
+      "tool_calls": 15,
+      "agent_invocations": 3,
+      "latency_ms": 11982.862874184588,
+      "cost_usd": 0.5491254687421808,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 14,
+      "success": true,
+      "input_tokens": 21584,
+      "output_tokens": 2605,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9226.804413122132,
+      "cost_usd": 0.38438782811952654,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 15,
+      "success": true,
+      "input_tokens": 36623,
+      "output_tokens": 2811,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11749.78407273041,
+      "cost_usd": 0.5552621561152735,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 15,
+      "success": true,
+      "input_tokens": 22340,
+      "output_tokens": 2671,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9047.333736002416,
+      "cost_usd": 0.38868350928069145,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 16,
+      "success": true,
+      "input_tokens": 37012,
+      "output_tokens": 2838,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11796.054963034605,
+      "cost_usd": 0.5403273286467775,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 16,
+      "success": true,
+      "input_tokens": 22577,
+      "output_tokens": 2696,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9082.962321536646,
+      "cost_usd": 0.3782291300527442,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 17,
+      "success": true,
+      "input_tokens": 35754,
+      "output_tokens": 2887,
+      "tool_calls": 15,
+      "agent_invocations": 3,
+      "latency_ms": 11646.262927453647,
+      "cost_usd": 0.5387957609363018,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 17,
+      "success": true,
+      "input_tokens": 21810,
+      "output_tokens": 2742,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 8967.622454139308,
+      "cost_usd": 0.37715703265541123,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 18,
+      "success": false,
+      "input_tokens": 35469,
+      "output_tokens": 2828,
+      "tool_calls": 13,
+      "agent_invocations": 3,
+      "latency_ms": 11780.616039693223,
+      "cost_usd": 0.5615994739112464,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 18,
+      "success": false,
+      "input_tokens": 21636,
+      "output_tokens": 2687,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9071.074350563782,
+      "cost_usd": 0.39311963173787245,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "baseline",
+      "run_index": 19,
+      "success": true,
+      "input_tokens": 36312,
+      "output_tokens": 2847,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 11805.594096873589,
+      "cost_usd": 0.5434226068000733,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "tool-1",
+      "mode": "topospace",
+      "run_index": 19,
+      "success": true,
+      "input_tokens": 22150,
+      "output_tokens": 2705,
+      "tool_calls": 9,
+      "agent_invocations": 2,
+      "latency_ms": 9090.307454592663,
+      "cost_usd": 0.38039582476005124,
+      "extra": {
+        "workload": "tool-use",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 0,
+      "success": true,
+      "input_tokens": 80803,
+      "output_tokens": 6430,
+      "tool_calls": 23,
+      "agent_invocations": 5,
+      "latency_ms": 26636.804203338303,
+      "cost_usd": 1.2467400345200015,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 0,
+      "success": true,
+      "input_tokens": 39593,
+      "output_tokens": 5916,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18379.39490030343,
+      "cost_usd": 0.7605114210572008,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 1,
+      "success": true,
+      "input_tokens": 83127,
+      "output_tokens": 6186,
+      "tool_calls": 22,
+      "agent_invocations": 5,
+      "latency_ms": 27331.862453742793,
+      "cost_usd": 1.2245615316741656,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 1,
+      "success": true,
+      "input_tokens": 40732,
+      "output_tokens": 5691,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18858.985093082527,
+      "cost_usd": 0.746982534321241,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 2,
+      "success": false,
+      "input_tokens": 81699,
+      "output_tokens": 6202,
+      "tool_calls": 21,
+      "agent_invocations": 5,
+      "latency_ms": 25792.736187035152,
+      "cost_usd": 1.2483484394594313,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 2,
+      "success": false,
+      "input_tokens": 40032,
+      "output_tokens": 5706,
+      "tool_calls": 12,
+      "agent_invocations": 4,
+      "latency_ms": 17796.987969054255,
+      "cost_usd": 0.761492548070253,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 3,
+      "success": false,
+      "input_tokens": 81971,
+      "output_tokens": 6282,
+      "tool_calls": 22,
+      "agent_invocations": 5,
+      "latency_ms": 25972.701751883855,
+      "cost_usd": 1.2618041723068374,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 3,
+      "success": false,
+      "input_tokens": 40166,
+      "output_tokens": 5779,
+      "tool_calls": 13,
+      "agent_invocations": 3,
+      "latency_ms": 17921.16420879986,
+      "cost_usd": 0.7697005451071708,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 4,
+      "success": true,
+      "input_tokens": 80882,
+      "output_tokens": 6571,
+      "tool_calls": 21,
+      "agent_invocations": 5,
+      "latency_ms": 26365.475584356507,
+      "cost_usd": 1.2807245479694465,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 4,
+      "success": true,
+      "input_tokens": 39632,
+      "output_tokens": 6045,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18192.17815320599,
+      "cost_usd": 0.7812419742613623,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 5,
+      "success": true,
+      "input_tokens": 79405,
+      "output_tokens": 6600,
+      "tool_calls": 23,
+      "agent_invocations": 5,
+      "latency_ms": 27160.49008039582,
+      "cost_usd": 1.261802897466502,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 5,
+      "success": true,
+      "input_tokens": 38908,
+      "output_tokens": 6072,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18740.738155473115,
+      "cost_usd": 0.7696997674545663,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 6,
+      "success": true,
+      "input_tokens": 83204,
+      "output_tokens": 6606,
+      "tool_calls": 23,
+      "agent_invocations": 5,
+      "latency_ms": 25661.505597262203,
+      "cost_usd": 1.2806230761449744,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 6,
+      "success": true,
+      "input_tokens": 40770,
+      "output_tokens": 6078,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 17706.43886211092,
+      "cost_usd": 0.7811800764484343,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 7,
+      "success": true,
+      "input_tokens": 79559,
+      "output_tokens": 6411,
+      "tool_calls": 21,
+      "agent_invocations": 5,
+      "latency_ms": 26120.664306133993,
+      "cost_usd": 1.2097965292969202,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 7,
+      "success": true,
+      "input_tokens": 38984,
+      "output_tokens": 5898,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18023.258371232456,
+      "cost_usd": 0.7379758828711213,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 8,
+      "success": true,
+      "input_tokens": 82855,
+      "output_tokens": 6351,
+      "tool_calls": 22,
+      "agent_invocations": 5,
+      "latency_ms": 27360.702176170136,
+      "cost_usd": 1.2494390934554533,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 8,
+      "success": true,
+      "input_tokens": 40599,
+      "output_tokens": 5843,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18878.884501557393,
+      "cost_usd": 0.7621578470078265,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 9,
+      "success": true,
+      "input_tokens": 79614,
+      "output_tokens": 6505,
+      "tool_calls": 21,
+      "agent_invocations": 5,
+      "latency_ms": 26423.223678829785,
+      "cost_usd": 1.2749291720188882,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 9,
+      "success": true,
+      "input_tokens": 39011,
+      "output_tokens": 5984,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18232.02433839255,
+      "cost_usd": 0.7777067949315217,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 10,
+      "success": false,
+      "input_tokens": 83640,
+      "output_tokens": 6432,
+      "tool_calls": 23,
+      "agent_invocations": 5,
+      "latency_ms": 26779.134747619497,
+      "cost_usd": 1.2330434720548735,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 10,
+      "success": false,
+      "input_tokens": 40983,
+      "output_tokens": 5917,
+      "tool_calls": 13,
+      "agent_invocations": 3,
+      "latency_ms": 18477.60297585745,
+      "cost_usd": 0.7521565179534727,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 11,
+      "success": true,
+      "input_tokens": 82516,
+      "output_tokens": 6366,
+      "tool_calls": 23,
+      "agent_invocations": 5,
+      "latency_ms": 26636.002908973598,
+      "cost_usd": 1.2574004475937315,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 11,
+      "success": true,
+      "input_tokens": 40433,
+      "output_tokens": 5857,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18378.842007191783,
+      "cost_usd": 0.7670142730321762,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 12,
+      "success": true,
+      "input_tokens": 81134,
+      "output_tokens": 6581,
+      "tool_calls": 22,
+      "agent_invocations": 5,
+      "latency_ms": 26322.007761312063,
+      "cost_usd": 1.2160027763065213,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 12,
+      "success": true,
+      "input_tokens": 39756,
+      "output_tokens": 6055,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18162.185355305326,
+      "cost_usd": 0.7417616935469779,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 13,
+      "success": false,
+      "input_tokens": 82034,
+      "output_tokens": 6395,
+      "tool_calls": 22,
+      "agent_invocations": 5,
+      "latency_ms": 27216.29825297652,
+      "cost_usd": 1.2441801550418439,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 13,
+      "success": true,
+      "input_tokens": 40197,
+      "output_tokens": 5884,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18779.2457945538,
+      "cost_usd": 0.7589498945755246,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 14,
+      "success": true,
+      "input_tokens": 84021,
+      "output_tokens": 6539,
+      "tool_calls": 22,
+      "agent_invocations": 5,
+      "latency_ms": 26286.35324936172,
+      "cost_usd": 1.206349895385301,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 14,
+      "success": true,
+      "input_tokens": 41170,
+      "output_tokens": 6016,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18137.58374205959,
+      "cost_usd": 0.7358734361850334,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 15,
+      "success": true,
+      "input_tokens": 83127,
+      "output_tokens": 6560,
+      "tool_calls": 23,
+      "agent_invocations": 5,
+      "latency_ms": 26274.667103523592,
+      "cost_usd": 1.2432502350665722,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 15,
+      "success": true,
+      "input_tokens": 40732,
+      "output_tokens": 6035,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 18129.52030143128,
+      "cost_usd": 0.758382643390609,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 16,
+      "success": true,
+      "input_tokens": 81270,
+      "output_tokens": 6422,
+      "tool_calls": 23,
+      "agent_invocations": 5,
+      "latency_ms": 26550.059801656644,
+      "cost_usd": 1.2103043915951748,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 16,
+      "success": true,
+      "input_tokens": 39822,
+      "output_tokens": 5909,
+      "tool_calls": 14,
+      "agent_invocations": 3,
+      "latency_ms": 18319.541263143085,
+      "cost_usd": 0.7382856788730566,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 17,
+      "success": false,
+      "input_tokens": 79478,
+      "output_tokens": 6334,
+      "tool_calls": 22,
+      "agent_invocations": 5,
+      "latency_ms": 25694.182713344497,
+      "cost_usd": 1.23070965972482,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 17,
+      "success": false,
+      "input_tokens": 38944,
+      "output_tokens": 5828,
+      "tool_calls": 13,
+      "agent_invocations": 4,
+      "latency_ms": 17728.986072207703,
+      "cost_usd": 0.7507328924321401,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 18,
+      "success": true,
+      "input_tokens": 81479,
+      "output_tokens": 6206,
+      "tool_calls": 22,
+      "agent_invocations": 5,
+      "latency_ms": 25929.729416572718,
+      "cost_usd": 1.2699569250693463,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 18,
+      "success": true,
+      "input_tokens": 39925,
+      "output_tokens": 5710,
+      "tool_calls": 13,
+      "agent_invocations": 3,
+      "latency_ms": 17891.513297435176,
+      "cost_usd": 0.7746737242923012,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "baseline",
+      "run_index": 19,
+      "success": true,
+      "input_tokens": 80182,
+      "output_tokens": 6324,
+      "tool_calls": 21,
+      "agent_invocations": 5,
+      "latency_ms": 26307.36349376525,
+      "cost_usd": 1.228752268023667,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "long-1",
+      "mode": "topospace",
+      "run_index": 19,
+      "success": true,
+      "input_tokens": 39289,
+      "output_tokens": 5818,
+      "tool_calls": 12,
+      "agent_invocations": 3,
+      "latency_ms": 18152.080810698022,
+      "cost_usd": 0.7495388834944369,
+      "extra": {
+        "workload": "long-horizon",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 0,
+      "success": true,
+      "input_tokens": 71081,
+      "output_tokens": 5194,
+      "tool_calls": 17,
+      "agent_invocations": 6,
+      "latency_ms": 22720.65270569123,
+      "cost_usd": 1.102379134011054,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 0,
+      "success": true,
+      "input_tokens": 38383,
+      "output_tokens": 4882,
+      "tool_calls": 11,
+      "agent_invocations": 4,
+      "latency_ms": 16358.869948097687,
+      "cost_usd": 0.6834750630868536,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 1,
+      "success": true,
+      "input_tokens": 68398,
+      "output_tokens": 5253,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 22958.639817762294,
+      "cost_usd": 1.1203704759468052,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 1,
+      "success": true,
+      "input_tokens": 36934,
+      "output_tokens": 4938,
+      "tool_calls": 12,
+      "agent_invocations": 3,
+      "latency_ms": 16530.220668788854,
+      "cost_usd": 0.6946296950870191,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 2,
+      "success": true,
+      "input_tokens": 71398,
+      "output_tokens": 5047,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 21841.193803451555,
+      "cost_usd": 1.1141377153378063,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 2,
+      "success": true,
+      "input_tokens": 38555,
+      "output_tokens": 4745,
+      "tool_calls": 11,
+      "agent_invocations": 4,
+      "latency_ms": 15725.659538485119,
+      "cost_usd": 0.6907653835094398,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 3,
+      "success": true,
+      "input_tokens": 70470,
+      "output_tokens": 5210,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 23119.190704624812,
+      "cost_usd": 1.0927113221567248,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 3,
+      "success": true,
+      "input_tokens": 38054,
+      "output_tokens": 4898,
+      "tool_calls": 12,
+      "agent_invocations": 4,
+      "latency_ms": 16645.817307329864,
+      "cost_usd": 0.6774810197371693,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 4,
+      "success": false,
+      "input_tokens": 69611,
+      "output_tokens": 5058,
+      "tool_calls": 17,
+      "agent_invocations": 6,
+      "latency_ms": 22588.322263049242,
+      "cost_usd": 1.0852721192672325,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 4,
+      "success": false,
+      "input_tokens": 37590,
+      "output_tokens": 4754,
+      "tool_calls": 11,
+      "agent_invocations": 4,
+      "latency_ms": 16263.592029395455,
+      "cost_usd": 0.6728687139456841,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 5,
+      "success": false,
+      "input_tokens": 69219,
+      "output_tokens": 5222,
+      "tool_calls": 17,
+      "agent_invocations": 6,
+      "latency_ms": 23170.61942558991,
+      "cost_usd": 1.1177629019683952,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 5,
+      "success": false,
+      "input_tokens": 37378,
+      "output_tokens": 4909,
+      "tool_calls": 11,
+      "agent_invocations": 4,
+      "latency_ms": 16682.845986424734,
+      "cost_usd": 0.693012999220405,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 6,
+      "success": true,
+      "input_tokens": 68287,
+      "output_tokens": 5264,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 22490.009227430688,
+      "cost_usd": 1.1239527219298604,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 6,
+      "success": true,
+      "input_tokens": 36875,
+      "output_tokens": 4949,
+      "tool_calls": 11,
+      "agent_invocations": 3,
+      "latency_ms": 16192.806643750097,
+      "cost_usd": 0.6968506875965134,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 7,
+      "success": true,
+      "input_tokens": 68562,
+      "output_tokens": 5092,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 22005.258452634764,
+      "cost_usd": 1.1316987934496445,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 7,
+      "success": true,
+      "input_tokens": 37023,
+      "output_tokens": 4786,
+      "tool_calls": 11,
+      "agent_invocations": 3,
+      "latency_ms": 15843.786085897029,
+      "cost_usd": 0.7016532519387796,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 8,
+      "success": false,
+      "input_tokens": 68745,
+      "output_tokens": 5018,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 21856.55621532174,
+      "cost_usd": 1.0686494886148623,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 8,
+      "success": false,
+      "input_tokens": 37122,
+      "output_tokens": 4717,
+      "tool_calls": 11,
+      "agent_invocations": 3,
+      "latency_ms": 15736.720475031652,
+      "cost_usd": 0.6625626829412147,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 9,
+      "success": true,
+      "input_tokens": 66606,
+      "output_tokens": 5160,
+      "tool_calls": 19,
+      "agent_invocations": 6,
+      "latency_ms": 22272.384426287008,
+      "cost_usd": 1.1384293941727464,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 9,
+      "success": true,
+      "input_tokens": 35967,
+      "output_tokens": 4850,
+      "tool_calls": 12,
+      "agent_invocations": 3,
+      "latency_ms": 16036.116786926645,
+      "cost_usd": 0.7058262243871026,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 10,
+      "success": true,
+      "input_tokens": 68270,
+      "output_tokens": 5070,
+      "tool_calls": 17,
+      "agent_invocations": 6,
+      "latency_ms": 22804.265211954564,
+      "cost_usd": 1.0953777014193364,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 10,
+      "success": true,
+      "input_tokens": 36866,
+      "output_tokens": 4766,
+      "tool_calls": 11,
+      "agent_invocations": 3,
+      "latency_ms": 16419.070952607286,
+      "cost_usd": 0.6791341748799886,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 11,
+      "success": true,
+      "input_tokens": 68042,
+      "output_tokens": 5224,
+      "tool_calls": 17,
+      "agent_invocations": 6,
+      "latency_ms": 22169.306384804473,
+      "cost_usd": 1.1252852323272327,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 11,
+      "success": true,
+      "input_tokens": 36742,
+      "output_tokens": 4911,
+      "tool_calls": 11,
+      "agent_invocations": 3,
+      "latency_ms": 15961.90059705922,
+      "cost_usd": 0.6976768440428843,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 12,
+      "success": true,
+      "input_tokens": 69500,
+      "output_tokens": 4976,
+      "tool_calls": 17,
+      "agent_invocations": 6,
+      "latency_ms": 22845.73580548794,
+      "cost_usd": 1.098706075714273,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 12,
+      "success": true,
+      "input_tokens": 37530,
+      "output_tokens": 4678,
+      "tool_calls": 11,
+      "agent_invocations": 3,
+      "latency_ms": 16448.92977995132,
+      "cost_usd": 0.6811977669428494,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 13,
+      "success": true,
+      "input_tokens": 70425,
+      "output_tokens": 4995,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 22743.638139039198,
+      "cost_usd": 1.1157354567902011,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 13,
+      "success": true,
+      "input_tokens": 38029,
+      "output_tokens": 4695,
+      "tool_calls": 12,
+      "agent_invocations": 4,
+      "latency_ms": 16375.419460108224,
+      "cost_usd": 0.6917559832099246,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 14,
+      "success": true,
+      "input_tokens": 67699,
+      "output_tokens": 5192,
+      "tool_calls": 19,
+      "agent_invocations": 6,
+      "latency_ms": 22094.307922112243,
+      "cost_usd": 1.1291543667548973,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 14,
+      "success": true,
+      "input_tokens": 36557,
+      "output_tokens": 4880,
+      "tool_calls": 12,
+      "agent_invocations": 4,
+      "latency_ms": 15907.901703920814,
+      "cost_usd": 0.7000757073880364,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 15,
+      "success": true,
+      "input_tokens": 70447,
+      "output_tokens": 5267,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 22294.251974871633,
+      "cost_usd": 1.1337628347671416,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 15,
+      "success": true,
+      "input_tokens": 38041,
+      "output_tokens": 4951,
+      "tool_calls": 11,
+      "agent_invocations": 4,
+      "latency_ms": 16051.861421907575,
+      "cost_usd": 0.7029329575556278,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 16,
+      "success": true,
+      "input_tokens": 68943,
+      "output_tokens": 4939,
+      "tool_calls": 19,
+      "agent_invocations": 6,
+      "latency_ms": 22689.72028079238,
+      "cost_usd": 1.1130114788613903,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 16,
+      "success": true,
+      "input_tokens": 37229,
+      "output_tokens": 4642,
+      "tool_calls": 12,
+      "agent_invocations": 3,
+      "latency_ms": 16336.598602170512,
+      "cost_usd": 0.690067116894062,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 17,
+      "success": true,
+      "input_tokens": 71108,
+      "output_tokens": 5254,
+      "tool_calls": 19,
+      "agent_invocations": 6,
+      "latency_ms": 22285.94320058281,
+      "cost_usd": 1.135441760846346,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 17,
+      "success": true,
+      "input_tokens": 38398,
+      "output_tokens": 4938,
+      "tool_calls": 12,
+      "agent_invocations": 3,
+      "latency_ms": 16045.879104419622,
+      "cost_usd": 0.7039738917247345,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 18,
+      "success": true,
+      "input_tokens": 68338,
+      "output_tokens": 5054,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 22539.311594906005,
+      "cost_usd": 1.0798454564248587,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 18,
+      "success": true,
+      "input_tokens": 36902,
+      "output_tokens": 4751,
+      "tool_calls": 11,
+      "agent_invocations": 4,
+      "latency_ms": 16228.304348332324,
+      "cost_usd": 0.6695041829834124,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "baseline",
+      "run_index": 19,
+      "success": true,
+      "input_tokens": 69855,
+      "output_tokens": 5016,
+      "tool_calls": 18,
+      "agent_invocations": 6,
+      "latency_ms": 22635.307057702114,
+      "cost_usd": 1.0889036164468053,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    },
+    {
+      "task_id": "multi-1",
+      "mode": "topospace",
+      "run_index": 19,
+      "success": true,
+      "input_tokens": 37722,
+      "output_tokens": 4715,
+      "tool_calls": 11,
+      "agent_invocations": 4,
+      "latency_ms": 16297.42108154552,
+      "cost_usd": 0.6751202421970194,
+      "extra": {
+        "workload": "multi-agent",
+        "synthetic": true
+      }
+    }
+  ],
+  "metrics": {
+    "input_tokens": {
+      "baseline_mean": 58697.475,
+      "topospace_mean": 31665.1625,
+      "reduction_pct_mean": 44.750449196214404,
+      "reduction_pct_ci95": [
+        43.81301987726914,
+        45.71293649392587
+      ]
+    },
+    "output_tokens": {
+      "baseline_mean": 4488.525,
+      "topospace_mean": 4194.1875,
+      "reduction_pct_mean": 6.249231146792596,
+      "reduction_pct_ci95": [
+        6.023486383712364,
+        6.487710017153414
+      ]
+    },
+    "tool_calls": {
+      "baseline_mean": 15.9625,
+      "topospace_mean": 10.025,
+      "reduction_pct_mean": 36.122960845484066,
+      "reduction_pct_ci95": [
+        35.16840300073238,
+        37.046459418447576
+      ]
+    },
+    "agent_invocations": {
+      "baseline_mean": 4.5,
+      "topospace_mean": 3.075,
+      "reduction_pct_mean": 30.833333333333332,
+      "reduction_pct_ci95": [
+        28.729166666666668,
+        33.0
+      ]
+    },
+    "latency_ms": {
+      "baseline_mean": 18811.268303219666,
+      "topospace_mean": 13565.892651073791,
+      "reduction_pct_mean": 27.0,
+      "reduction_pct_ci95": [
+        26.375,
+        27.6375
+      ]
+    },
+    "cost_usd": {
+      "baseline_mean": 0.8964568348474088,
+      "topospace_mean": 0.5704750631059299,
+      "reduction_pct_mean": 35.25,
+      "reduction_pct_ci95": [
+        34.487500000000004,
+        36.025
+      ]
+    }
+  },
+  "success": {
+    "baseline_rate": 0.8375,
+    "topospace_rate": 0.85,
+    "delta_pp_mean": 1.25,
+    "delta_pp_ci95": [
+      0.0,
+      3.75
+    ]
+  },
+  "claim_input": {
+    "eligible": true,
+    "claim": "Reduced input tokens by at least 43.8% in this benchmark (95% bootstrap CI) while staying within the configured success-rate guardrail.",
+    "lower_bound_pct": 43.81301987726914
+  },
+  "claim_cost": {
+    "eligible": true,
+    "claim": "Reduced cost usd by at least 34.5% in this benchmark (95% bootstrap CI) while staying within the configured success-rate guardrail.",
+    "lower_bound_pct": 34.487500000000004
+  },
+  "provenance": "synthetic deterministic A/B harness; replace adapter with real model/task runners before marketing use"
+}
