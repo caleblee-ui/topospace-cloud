@@ -1,0 +1,9 @@
+{
+  "runs": 300,
+  "mean_independent_selected": 72.95666666666666,
+  "mean_coupled_selected": 77.25333333333333,
+  "mean_joint_iterations": 2.0966666666666667,
+  "selection_change_pct": 5.889340704527802,
+  "policy_security_violations_selected": 0,
+  "note": "Synthetic cross-domain coupling benchmark. Selection change measures coupled-vs-independent runtime behavior, not production quality improvement."
+}
