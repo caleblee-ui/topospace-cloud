@@ -1,0 +1,12 @@
+{
+  "runs": 5000,
+  "mean_requested_budget": 4364.9534,
+  "mean_gateway_budget": 3386.5272,
+  "budget_reduction_pct": 22.415501617955425,
+  "logical_model_routes": {
+    "reasoning": 1978,
+    "fast": 888,
+    "balanced": 2134
+  },
+  "note": "Synthetic gateway control-plane benchmark; budget reduction is an assigned generation budget, not measured provider token billing."
+}
