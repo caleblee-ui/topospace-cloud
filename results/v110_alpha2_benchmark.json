@@ -1,0 +1,10 @@
+{
+  "runs": 400,
+  "mean_token_reduction": 0.7856602659013245,
+  "mean_relevant_recall": 0.99375,
+  "cold_p95_ms": 0.8608959997218335,
+  "warm_cache_p95_ms": 0.5680919998667378,
+  "mean_p": 1.75,
+  "mean_epsilon": 0.45049659865371,
+  "note": "Synthetic benchmark; not a production marketing claim."
+}
