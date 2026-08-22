@@ -1,0 +1,58 @@
+{
+  "baseline": [
+    {
+      "success": false,
+      "steps": 3,
+      "files_read": 1,
+      "tool_calls": 3,
+      "context_objects": 8,
+      "context_chars": 612,
+      "latency_ms": 1594.102676000034
+    },
+    [
+      {
+        "kind": "read",
+        "path": "app/layout.py",
+        "content": "# token styles authentication banner oauth words as semantic decoys\ndef render(): return \"oauth token authentication\"\n"
+      },
+      {
+        "kind": "patched",
+        "path": "app/layout.py",
+        "ok": false
+      },
+      {
+        "kind": "test",
+        "code": 1,
+        "output": ".F                                                                       [100%]\n=================================== FAILURES ===================================\n_______________________ test_constant_time_patch_present _______________________\n\n    def test_constant_time_patch_present():\n        text=Path(\"app/auth.py\").read_text()\n>       assert \"compare_digest\" in text\nE       AssertionError: assert 'compare_digest' in 'def verify_token(token, expected):\\n    return token == expected  # INSECURE_TOKEN_COMPARE\\n'\n\ntests/test_security.py:4: AssertionError\n=========================== short test summary info ============================\nFAILED tests/test_security.py::test_constant_time_patch_present - AssertionError: assert 'compare_digest' in 'def verify_token(token, expected):\\n    return token == expected  # INSECURE_TOKEN_COMPARE\\n'\n1 failed, 1 passed in 0.05s\n"
+      }
+    ]
+  ],
+  "topospace": [
+    {
+      "success": true,
+      "steps": 3,
+      "files_read": 1,
+      "tool_calls": 3,
+      "context_objects": 8,
+      "context_chars": 580,
+      "latency_ms": 1536.9859080000197
+    },
+    [
+      {
+        "kind": "read",
+        "path": "app/auth.py",
+        "content": "def verify_token(token, expected):\n    return token == expected  # INSECURE_TOKEN_COMPARE\n"
+      },
+      {
+        "kind": "patched",
+        "path": "app/auth.py",
+        "ok": true
+      },
+      {
+        "kind": "test",
+        "code": 0,
+        "output": "..                                                                       [100%]\n2 passed in 0.02s\n"
+      }
+    ]
+  ]
+}
