@@ -1,0 +1,1 @@
+class TopoSpaceGateway extends HTMLElement{connectedCallback(){this.innerHTML="<h2>TopoSpace Agent Runtime Gateway</h2><p>Context · Memory · Tools · Skills · Plans · Model Route · Token Budget · Telemetry</p>"}}customElements.define("topospace-gateway",TopoSpaceGateway);
