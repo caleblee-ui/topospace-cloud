@@ -1,0 +1,4 @@
+
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dynamic Agent Topology</title><script src="../web-sdk/dynamic-topology-graph.js"></script><style>body{margin:0;background:#07101c;color:#eef4ff;font-family:Inter,system-ui}main{max-width:1100px;margin:auto;padding:28px}</style></head><body><main><h1>TopoSpace 1.1 alpha3 · Dynamic Agent Topology</h1><div id="g"></div></main><script>
+const d={version:8,nodes:[{id:"task",kind:"task",state:"active"},{id:"memory",kind:"memory"},{id:"context",kind:"context"},{id:"tool",kind:"tool"},{id:"agent",kind:"agent"}],edges:[{source:"task",target:"memory",relation:"recall"},{source:"memory",target:"context",relation:"compile"},{source:"task",target:"tool",relation:"requires"},{source:"task",target:"agent",relation:"delegate"},{source:"agent",target:"tool",relation:"invoke"}]};TopoSpaceDynamicGraphSDK.mount("#g",d);
+</script></body></html>
