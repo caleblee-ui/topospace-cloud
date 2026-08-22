@@ -1,0 +1,7 @@
+{
+  "contexts": 1500,
+  "pre_joint_match_rate": 0.0,
+  "post_joint_match_rate": 0.3333333333333333,
+  "improvement_points": 33.333333333333336,
+  "note": "Constructed meta-policy regression fixture; not production quality/cost evidence."
+}
