@@ -14,6 +14,11 @@ TopoSpace is a provider-neutral **AI Execution Optimization Plane**. It is not a
 >
 > Beta notice: this release is engineering software for evaluation and controlled pilots. It does not claim a verified token-savings percentage, cost-savings percentage, or performance advantage.
 
+## Whitepaper
+
+[**TopoSpace: Adaptive Topological State-Space Infrastructure for AI Agents**](docs/TopoSpace_Whitepaper_v2.0.pdf)  
+Technical Whitepaper — Version 2.0, with a controlled simulation study · 66 pages · August 22, 2026.
+
 ## What TopoSpace coordinates
 
 ### Adaptive Geometry
