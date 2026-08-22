@@ -1,0 +1,8 @@
+{
+  "runs": 5000,
+  "baseline_mean_model_cost_units": 8.9208,
+  "graph_expected_model_cost_units": 7.8174,
+  "expected_model_cost_reduction_pct": 12.368845843422116,
+  "mean_escalation_nodes": 0.228,
+  "note": "Synthetic expected-cost benchmark. Cost units and escalation probabilities are constructed for regression, not live provider billing."
+}
