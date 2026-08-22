@@ -1,0 +1,8 @@
+{
+  "runs": 1000,
+  "mean_persistent_dispatch_ms": 1.772576361989195,
+  "p95_persistent_dispatch_ms": 2.5064359997486463,
+  "events": 1000,
+  "metered": 1000.0,
+  "note": "Local SQLite reference persistence; external Redis/PostgreSQL/network latency not measured."
+}
