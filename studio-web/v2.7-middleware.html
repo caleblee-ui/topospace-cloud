@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TopoSpace Middleware v2.7</title>
+<script src="../web-sdk/middleware-flow.js"></script>
+<style>body{margin:0;background:#070c16;color:#eef4ff;font-family:Inter,system-ui}main{max-width:1450px;margin:auto;padding:24px}p{color:#9eabc1}</style></head>
+<body><main><h1>TopoSpace v2.7 · Framework-Agnostic Middleware</h1><p>No LangChain dependency. TopoSpace intercepts the agent lifecycle directly.</p><div id="flow"></div></main>
+<script>
+TopoSpaceMiddlewareFlowSDK.mount("#flow",[
+ {phase:"memory_recall",payload:{candidates:42,selected:7,tokens:4100}},
+ {phase:"before_inference",payload:{context_pruned:"61%",epsilon:.24,p:1.8}},
+ {phase:"model",payload:{provider:"LLM",context_tokens:6200}},
+ {phase:"before_tool",payload:{tool:"repo.search",allowed:true}},
+ {phase:"after_tool",payload:{new_nodes:3,drift:.18}},
+ {phase:"state_update",payload:{uncertainty:.34,replan:false}}
+]);
+</script></body></html>
