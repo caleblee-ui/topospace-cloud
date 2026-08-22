@@ -1,0 +1,52 @@
+{
+  "state_id": "demo",
+  "nodes": [
+    {
+      "id": "task",
+      "label": "Task",
+      "type": "state",
+      "score": 1.0
+    },
+    {
+      "id": "auth",
+      "label": "auth.py",
+      "type": "code",
+      "score": 0.92
+    },
+    {
+      "id": "oauth",
+      "label": "oauth.py",
+      "type": "code",
+      "score": 0.84
+    },
+    {
+      "id": "test",
+      "label": "auth_test.py",
+      "type": "test",
+      "score": 0.72
+    }
+  ],
+  "edges": [
+    {
+      "source": "task",
+      "target": "auth",
+      "distance": 0.1,
+      "affinity": 0.9,
+      "type": "topological"
+    },
+    {
+      "source": "auth",
+      "target": "oauth",
+      "distance": 0.14,
+      "affinity": 0.86,
+      "type": "dependency"
+    },
+    {
+      "source": "oauth",
+      "target": "test",
+      "distance": 0.18,
+      "affinity": 0.82,
+      "type": "test"
+    }
+  ]
+}
