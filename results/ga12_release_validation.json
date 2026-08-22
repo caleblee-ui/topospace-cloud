@@ -1,0 +1,9 @@
+{
+  "e2e_requests": 500,
+  "e2e_success": 500,
+  "release_guard": {
+    "ga_ready": true,
+    "missing": []
+  },
+  "note": "GA regression only; no live-provider savings claim."
+}
