@@ -1,0 +1,34 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>TopoSpace Studio v0.7</title>
+<style>
+body{font-family:Inter,system-ui;background:#09101d;color:#eef3ff;margin:0}
+header{padding:18px 24px;border-bottom:1px solid #25344e;display:flex;justify-content:space-between}
+main{display:grid;grid-template-columns:1fr 370px;height:calc(100vh - 66px)}
+#space{position:relative;overflow:hidden}.node{position:absolute;padding:9px 12px;border:1px solid #506386;border-radius:20px;background:#151f34;transition:.35s}
+.core{border-width:2px}.side{border-left:1px solid #25344e;padding:18px;overflow:auto}
+.metric{display:flex;justify-content:space-between;padding:6px 0}.bar{height:8px;background:#25344e;border-radius:5px;overflow:hidden}.fill{height:100%;background:#8aa4d4}
+.event{padding:10px;background:#131d30;border-radius:8px;margin:7px 0;cursor:pointer}small{color:#9aaaca}
+</style></head>
+<body><header><b>TopoSpace Studio v0.7 · Drift & Persistence</b><span>Topology debugger</span></header>
+<main><div id="space"></div><aside class="side">
+<h3>Topology state</h3>
+<div class="metric"><span>p</span><b id="pv">1.60</b></div>
+<div class="metric"><span>ε</span><b id="ev">0.28</b></div>
+<div class="metric"><span>Drift</span><b id="dv">0.00</b></div><div class="bar"><div class="fill" id="df" style="width:0%"></div></div>
+<h3>Persistent context</h3><div id="persistent"></div>
+<h3>Timeline</h3><div id="events"></div>
+</aside></main>
+<script>
+const frames=[
+{e:"task",p:1.8,eps:.34,d:.08,n:[["Task",1],["auth.py",.72],["layout.py",.18]]},
+{e:"context shift",p:1.7,eps:.30,d:.44,n:[["Task",1],["auth.py",.86],["oauth.py",.74],["tests",.42]]},
+{e:"drift → replan",p:1.62,eps:.28,d:.61,n:[["Task",1],["auth.py",.94],["oauth.py",.89],["auth_test.py",.82],["Security",.55]]},
+{e:"stable",p:1.58,eps:.27,d:.12,n:[["Task",1],["auth.py",.96],["oauth.py",.91],["auth_test.py",.87]]}
+];
+const space=document.getElementById("space"), events=document.getElementById("events"), persistent=document.getElementById("persistent");
+function render(i){const f=frames[i];pv.textContent=f.p.toFixed(2);ev.textContent=f.eps.toFixed(2);dv.textContent=f.d.toFixed(2);df.style.width=(f.d*100)+"%";space.innerHTML="";persistent.innerHTML="";
+f.n.forEach((x,j)=>{const el=document.createElement("div");el.className="node "+(j==0?"core":"");el.textContent=x[0];const a=2*Math.PI*j/f.n.length, r=j?190:0;el.style.left=`calc(50% + ${Math.cos(a)*r}px)`;el.style.top=`calc(43% + ${Math.sin(a)*r}px)`;space.appendChild(el);
+if(j){const d=document.createElement("div");d.className="metric";d.innerHTML=`<span>${x[0]}</span><b>${x[1].toFixed(2)}</b>`;persistent.appendChild(d);}});
+}
+frames.forEach((f,i)=>{const d=document.createElement("div");d.className="event";d.innerHTML=`<b>${i+1}. ${f.e}</b><br><small>drift ${f.d} · p ${f.p} · ε ${f.eps}</small>`;d.onclick=()=>render(i);events.appendChild(d)});render(0);
+</script></body></html>
