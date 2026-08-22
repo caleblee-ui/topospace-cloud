@@ -1,0 +1,14 @@
+
+services:
+  topospace:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    ports:
+      - "8787:8787"
+    environment:
+      - TOPOSPACE_GRAPH_DB=/data/topospace_graphs.db
+    volumes:
+      - topospace-data:/data
+volumes:
+  topospace-data:
