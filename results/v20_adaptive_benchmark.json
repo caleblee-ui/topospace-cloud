@@ -1,0 +1,71 @@
+{
+  "easy_cost_sensitive": {
+    "raw_tokens": 44200,
+    "context_tokens": 28100,
+    "reduction_pct": 36.42533936651584,
+    "kept": [
+      "task",
+      "tests",
+      "oauth",
+      "auth",
+      "docs",
+      "logs"
+    ],
+    "adaptive": {
+      "epsilon": 0.18,
+      "max_context_tokens": 8000,
+      "p": 1.5325000000000002,
+      "need": 0.14,
+      "uncertainty": 0.15,
+      "drift": 0.05,
+      "cost_pressure": 0.9,
+      "complexity": 0.2
+    },
+    "quality_expansion": true
+  },
+  "normal": {
+    "raw_tokens": 44200,
+    "context_tokens": 9800,
+    "reduction_pct": 77.82805429864254,
+    "kept": [
+      "task",
+      "tests",
+      "oauth"
+    ],
+    "adaptive": {
+      "epsilon": 0.27714999999999995,
+      "max_context_tokens": 17890,
+      "p": 2.2975,
+      "need": 0.345,
+      "uncertainty": 0.35,
+      "drift": 0.15,
+      "cost_pressure": 0.5,
+      "complexity": 0.5
+    },
+    "quality_expansion": false
+  },
+  "hard_uncertain": {
+    "raw_tokens": 44200,
+    "context_tokens": 28100,
+    "reduction_pct": 36.42533936651584,
+    "kept": [
+      "task",
+      "tests",
+      "oauth",
+      "auth",
+      "docs",
+      "logs"
+    ],
+    "adaptive": {
+      "epsilon": 0.603555,
+      "max_context_tokens": 41323,
+      "p": 3.5095,
+      "need": 0.9164999999999999,
+      "uncertainty": 0.82,
+      "drift": 0.45,
+      "cost_pressure": 0.2,
+      "complexity": 0.85
+    },
+    "quality_expansion": true
+  }
+}
