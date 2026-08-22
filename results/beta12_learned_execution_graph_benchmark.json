@@ -1,0 +1,7 @@
+{
+  "contexts": 3000,
+  "pre_learning_match_rate": 0.3293333333333333,
+  "post_learning_match_rate": 0.9913333333333333,
+  "improvement_points": 66.19999999999999,
+  "note": "Constructed execution-path ground truth for regression only; not live provider/task quality evidence."
+}
