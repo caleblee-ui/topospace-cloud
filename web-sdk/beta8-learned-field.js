@@ -1,0 +1,1 @@
+class TopoSpaceBeta8 extends HTMLElement{connectedCallback(){this.innerHTML="<h2>Learned Topological Field Runtime</h2><p>Cθ(s): state-conditioned Memory ↔ Tool ↔ Skill ↔ Planning coupling</p><p>Local generalized geometry + learned cross-domain field</p>"}}customElements.define("topospace-beta8",TopoSpaceBeta8);
