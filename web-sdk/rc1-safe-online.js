@@ -1,0 +1,1 @@
+class TopoSpaceRC1 extends HTMLElement{connectedCallback(){this.innerHTML="<h2>TopoSpace 1.1 RC · Safe Online Joint Optimization</h2><p>Champion · Shadow · Promotion · Staged Rollout · Automatic Rollback</p>"}}customElements.define("topospace-rc1",TopoSpaceRC1);
