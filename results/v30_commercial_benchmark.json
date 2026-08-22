@@ -1,0 +1,14 @@
+{
+  "iterations": 2000,
+  "p50_service_ms": 0.010646000006886425,
+  "p95_service_ms": 0.01138700000069548,
+  "p99_service_ms": 0.014110999998706575,
+  "sla": {
+    "count": 2000,
+    "p50_ms": 0.008062000006248127,
+    "p95_ms": 0.008553000000688371,
+    "p99_ms": 0.010136000000215972,
+    "error_rate": 0.0
+  },
+  "note": "In-process service benchmark; excludes network/external storage."
+}
