@@ -1,0 +1,1 @@
+class TopoSpaceModelRouter extends HTMLElement{connectedCallback(){this.innerHTML="<h2>Topology-Aware Model Router</h2><p>Geometry · Coupling · Tokens · Tools · Cost · Latency · Historical Reward</p>"}}customElements.define("topospace-model-router",TopoSpaceModelRouter);
