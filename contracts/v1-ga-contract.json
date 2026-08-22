@@ -1,0 +1,19 @@
+{
+  "product": "TopoSpace",
+  "version": "1.0.0",
+  "status": "GA",
+  "api_version": "v1",
+  "optimize_required": [
+    "objective"
+  ],
+  "response_required": [
+    "api_version",
+    "engine_version",
+    "request_id",
+    "tenant_id",
+    "project_id",
+    "result",
+    "latency_ms"
+  ],
+  "compatibility": "1.x preserves v1 contract"
+}
