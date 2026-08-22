@@ -1,0 +1,10 @@
+{
+  "runs": 5000,
+  "routes": {
+    "fast": 240,
+    "balanced": 3999,
+    "reasoning": 761
+  },
+  "heuristic_sensible_route_rate": 0.9972,
+  "note": "Synthetic topology-aware router regression. This measures routing behavior against coarse heuristics, not provider/model quality."
+}
