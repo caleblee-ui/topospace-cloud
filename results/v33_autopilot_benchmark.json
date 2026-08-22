@@ -1,0 +1,98 @@
+[
+  {
+    "name": "easy",
+    "signals": {
+      "success_rate": 0.98,
+      "uncertainty": 0.1,
+      "drift": 0.05,
+      "token_pressure": 0.9,
+      "latency_pressure": 0.7,
+      "tool_failure_rate": 0,
+      "memory_hit_rate": 0.9
+    },
+    "decision": {
+      "epsilon": 0.16,
+      "p": 1.2325,
+      "max_context_tokens": 6000,
+      "memory_recall_limit": 7,
+      "tool_radius": 0.17475,
+      "exploration": 0.069,
+      "reason": [
+        "contract_for_cost_latency"
+      ]
+    }
+  },
+  {
+    "name": "normal",
+    "signals": {
+      "success_rate": 0.9,
+      "uncertainty": 0.35,
+      "drift": 0.15,
+      "token_pressure": 0.5,
+      "latency_pressure": 0.3,
+      "tool_failure_rate": 0.05,
+      "memory_hit_rate": 0.72
+    },
+    "decision": {
+      "epsilon": 0.23071999999999998,
+      "p": 1.78,
+      "max_context_tokens": 8100,
+      "memory_recall_limit": 12,
+      "tool_radius": 0.25175,
+      "exploration": 0.23999999999999996,
+      "reason": [
+        "stable_operating_point"
+      ]
+    }
+  },
+  {
+    "name": "degraded",
+    "signals": {
+      "success_rate": 0.62,
+      "uncertainty": 0.82,
+      "drift": 0.55,
+      "token_pressure": 0.45,
+      "latency_pressure": 0.5,
+      "tool_failure_rate": 0.35,
+      "memory_hit_rate": 0.32
+    },
+    "decision": {
+      "epsilon": 0.41072,
+      "p": 2.5300000000000002,
+      "max_context_tokens": 10935,
+      "memory_recall_limit": 23,
+      "tool_radius": 0.4588249999999999,
+      "exploration": 0.651,
+      "reason": [
+        "expand_for_uncertainty",
+        "expand_for_drift",
+        "expand_for_quality",
+        "increase_memory_recall",
+        "broaden_tool_neighborhood"
+      ]
+    }
+  },
+  {
+    "name": "recovering",
+    "signals": {
+      "success_rate": 0.82,
+      "uncertainty": 0.45,
+      "drift": 0.25,
+      "token_pressure": 0.6,
+      "latency_pressure": 0.35,
+      "tool_failure_rate": 0.1,
+      "memory_hit_rate": 0.68
+    },
+    "decision": {
+      "epsilon": 0.274808,
+      "p": 2.08,
+      "max_context_tokens": 14762,
+      "memory_recall_limit": 14,
+      "tool_radius": 0.29162499999999997,
+      "exploration": 0.336,
+      "reason": [
+        "stable_operating_point"
+      ]
+    }
+  }
+]
