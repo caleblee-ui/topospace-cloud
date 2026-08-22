@@ -1,0 +1,16 @@
+
+services:
+  topospace:
+    build:
+      context: ../..
+      dockerfile: deploy/docker/Dockerfile
+    ports:
+      - "8787:8787"
+    environment:
+      TOPOSPACE_ENV: production
+      PORT: "8787"
+      TORUSDB_URL: ${TORUSDB_URL:-}
+      TORUSDB_API_KEY: ${TORUSDB_API_KEY:-}
+      REDIS_URL: ${REDIS_URL:-}
+      POSTGRES_DSN: ${POSTGRES_DSN:-}
+    restart: unless-stopped
