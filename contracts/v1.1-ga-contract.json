@@ -1,0 +1,15 @@
+{
+  "product": "TopoSpace",
+  "version": "1.1.0",
+  "status": "GA",
+  "api_version": "v1",
+  "compatibility": "TopoSpace 1.x preserves API v1",
+  "core_runtime": [
+    "general_geometry",
+    "geometry_policy",
+    "coupled_geometry",
+    "learned_field",
+    "joint_optimizer",
+    "online_learning"
+  ]
+}
