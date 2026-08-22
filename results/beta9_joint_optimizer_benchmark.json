@@ -1,0 +1,7 @@
+{
+  "steps": 500,
+  "mean_memory_to_plan_gain": 0.0004177063793330377,
+  "mean_joint_confidence": 0.9116009488628112,
+  "mean_update_instability": 0.00018991744557947,
+  "note": "Synthetic joint-learning regression; demonstrates coordinated A_theta + C_theta updates, not production task quality."
+}
