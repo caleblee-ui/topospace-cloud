@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TopoSpace Studio v1.1</title><script src="../web-sdk/topospace-graph-v1.1.js"></script>
+<style>body{margin:0;background:#070c16;color:#eef4ff;font-family:Inter,system-ui}main{max-width:1440px;margin:auto;padding:24px}p{color:#9eabc1}</style></head>
+<body><main><h1>TopoSpace Studio v1.1</h1><p>Force layout · edge filters · neighborhood rings · ε-filtration animation</p><div id="graph"></div></main>
+<script>
+TopoSpaceGraphV11SDK.mount("#graph",{
+nodes:[
+{id:"task",label:"OAuth Task",type:"state",score:1},{id:"auth",label:"auth.py",type:"code",score:.93},{id:"oauth",label:"oauth.py",type:"code",score:.86},{id:"test",label:"auth_test.py",type:"test",score:.74},{id:"skill",label:"Security Skill",type:"skill",score:.58},{id:"layout",label:"layout.py",type:"code",score:.19}],
+edges:[
+{source:"task",target:"auth",distance:.10,affinity:.90,type:"topological"},
+{source:"auth",target:"oauth",distance:.14,affinity:.86,type:"dependency"},
+{source:"oauth",target:"test",distance:.18,affinity:.82,type:"test"},
+{source:"task",target:"skill",distance:.31,affinity:.69,type:"skill"},
+{source:"task",target:"layout",distance:.77,affinity:.23,type:"semantic"}
+]});
+</script></body></html>
