@@ -1,0 +1,11 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TopoSpace Autopilot v3.3</title><script src="../web-sdk/autopilot-panel.js"></script>
+<style>body{margin:0;background:#07101c;color:#eef4ff;font-family:Inter,system-ui}main{max-width:1100px;margin:auto;padding:26px}p{color:#9dacbf}</style></head>
+<body><main><h1>TopoSpace v3.3 · Topology Autopilot</h1><p>Automatic control of ε, p, token budget, memory depth and tool radius.</p><div id="panel"></div></main>
+<script>
+TopoSpaceAutopilotPanelSDK.mount("#panel",{
+ signals:{success_rate:.72,uncertainty:.77,drift:.48,token_pressure:.55,latency_pressure:.40,memory_hit_rate:.38,tool_failure_rate:.30},
+ decision:{epsilon:.51,p:3.02,max_context_tokens:30120,memory_recall_limit:21,tool_radius:.49,exploration:.53,
+ reason:["expand_for_uncertainty","expand_for_drift","expand_for_quality","increase_memory_recall","broaden_tool_neighborhood"]}
+});
+</script></body></html>
