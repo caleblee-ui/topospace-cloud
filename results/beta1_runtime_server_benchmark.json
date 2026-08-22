@@ -1,0 +1,7 @@
+{
+  "runs": 500,
+  "mean_remote_lifecycle_ms": 3.2796001339756913,
+  "p95_remote_lifecycle_ms": 4.138874999625841,
+  "tasks_recorded": 500,
+  "note": "Localhost HTTP runtime benchmark; excludes real network, LLM, tool and external storage latency."
+}
