@@ -1,0 +1,10 @@
+{
+  "objects": 20000,
+  "delta_updates": 100,
+  "bootstrap_ms": 27.0147769997493,
+  "incremental_p50_ms": 0.12670849991991417,
+  "incremental_p95_ms": 0.19665199988594395,
+  "full_rebuild_p50_ms": 2.1713034998356306,
+  "speedup_vs_full_p50": 17.13621028745505,
+  "note": "CPU/memory microbenchmark on deterministic local objects; not end-to-end production latency."
+}
