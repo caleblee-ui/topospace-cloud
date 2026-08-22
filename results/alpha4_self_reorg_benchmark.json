@@ -1,0 +1,8 @@
+{
+  "runs": 300,
+  "top1_before_learning": 0,
+  "top1_after_learning": 1,
+  "improvement_pp": 100,
+  "p95_plan_ms": 0.0874699999258155,
+  "note": "Synthetic closed-loop learning regression; not external agent-quality evidence."
+}
