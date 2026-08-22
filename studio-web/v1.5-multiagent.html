@@ -1,0 +1,22 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TopoSpace Multi-Agent v1.5</title><script src="../web-sdk/topospace-graph-v1.2.js"></script>
+<style>body{margin:0;background:#070c16;color:#eef4ff;font-family:Inter,system-ui}main{max-width:1400px;margin:auto;padding:24px}p{color:#9eabc1}</style></head>
+<body><main><h1>TopoSpace v1.5 · Adaptive Multi-Agent Topology</h1><p>Task-centered team formation, collaboration edges, and dynamic agent selection.</p><div id="graph"></div></main>
+<script>
+TopoSpaceGraphV12SDK.mount("#graph",{
+nodes:[
+{id:"task",label:"OAuth Security Fix",type:"state",score:1},
+{id:"coding-agent",label:"Coding Agent",type:"agent",score:.94},
+{id:"security-agent",label:"Security Agent",type:"agent",score:.90},
+{id:"test-agent",label:"Test Agent",type:"agent",score:.86},
+{id:"frontend-agent",label:"Frontend Agent",type:"agent",score:.18}
+],
+edges:[
+{source:"task",target:"coding-agent",distance:.06,affinity:.94,type:"assignment"},
+{source:"task",target:"security-agent",distance:.10,affinity:.90,type:"assignment"},
+{source:"task",target:"test-agent",distance:.14,affinity:.86,type:"assignment"},
+{source:"coding-agent",target:"security-agent",distance:.15,affinity:.85,type:"collaboration"},
+{source:"coding-agent",target:"test-agent",distance:.12,affinity:.88,type:"collaboration"},
+{source:"coding-agent",target:"frontend-agent",distance:.75,affinity:.25,type:"collaboration"}
+]});
+</script></body></html>
