@@ -1,0 +1,1 @@
+class TopoSpace12 extends HTMLElement{connectedCallback(){this.innerHTML="<h2>TopoSpace 1.2 · Agent Optimization</h2><p>Provider-neutral middleware · Actual Usage A/B · Geometry Observability</p>"}}customElements.define("topospace-12",TopoSpace12);
