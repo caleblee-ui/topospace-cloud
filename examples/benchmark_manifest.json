@@ -1,0 +1,20 @@
+{
+  "experiment_id": "topospace-public-benchmark-001",
+  "model": "PIN_EXACT_MODEL_VERSION",
+  "temperature": 0,
+  "repeats": 20,
+  "modes": [
+    "baseline",
+    "topospace"
+  ],
+  "guardrail": {
+    "max_success_drop_pp": 2
+  },
+  "workloads": [
+    "coding",
+    "tool-use",
+    "long-horizon",
+    "multi-agent"
+  ],
+  "notes": "Use identical model/tool/task configuration for paired runs."
+}
