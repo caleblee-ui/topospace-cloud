@@ -1,0 +1,41 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>TopoSpace Studio v0.6</title>
+<style>
+body{font-family:Inter,system-ui;background:#0b1020;color:#e8ecf6;margin:0}
+header{padding:18px 24px;border-bottom:1px solid #25304a;display:flex;justify-content:space-between}
+main{display:grid;grid-template-columns:1fr 340px;height:calc(100vh - 66px)}
+#space{position:relative;overflow:hidden}
+.node{position:absolute;padding:9px 12px;border:1px solid #405174;border-radius:20px;background:#151d32;transition:.35s}
+.state{border-width:2px;font-weight:700}
+#panel{border-left:1px solid #25304a;padding:18px;overflow:auto}
+.event{padding:10px;margin:7px 0;background:#131b2e;border-radius:8px;cursor:pointer}
+small{color:#93a3c7}.metric{display:flex;justify-content:space-between;padding:5px 0}
+</style></head>
+<body><header><b>TopoSpace Studio v0.6 · Learning Topology</b><span id="status">Replay mode</span></header>
+<main><div id="space"></div><aside id="panel">
+<h3>Live topology</h3><div class="metric"><span>p</span><b id="p">2.00</b></div>
+<div class="metric"><span>ε</span><b id="eps">0.35</b></div>
+<div class="metric"><span>Reward</span><b id="reward">—</b></div>
+<h3>Replanning trace</h3><div id="events"></div>
+</aside></main>
+<script>
+const frames=[
+{e:"task",p:2,eps:.35,r:-.4,n:["Task","auth.py","layout.py","Tool:read"]},
+{e:"context rebuilt",p:1.82,eps:.31,r:.15,n:["Task","auth.py","oauth.py","tests","Tool:read"]},
+{e:"test failed → replan",p:1.66,eps:.28,r:.52,n:["Task","auth.py","oauth.py","auth_test.py","Tool:test"]},
+{e:"fix verified",p:1.53,eps:.27,r:.93,n:["Task","auth.py","oauth.py","auth_test.py","Security Skill","Tool:test"]}
+];
+const events=document.getElementById("events"),space=document.getElementById("space");
+function render(i){
+ const f=frames[i]; p.textContent=f.p.toFixed(2);eps.textContent=f.eps.toFixed(2);reward.textContent=f.r;
+ space.innerHTML="";
+ f.n.forEach((name,j)=>{
+  const el=document.createElement("div");el.className="node "+(j==0?"state":"");el.textContent=name;
+  const a=(j/f.n.length)*Math.PI*2; const rad=j==0?0:190;
+  el.style.left=`calc(50% + ${Math.cos(a)*rad}px)`;el.style.top=`calc(45% + ${Math.sin(a)*rad}px)`;
+  space.appendChild(el);
+ });
+}
+frames.forEach((f,i)=>{let d=document.createElement("div");d.className="event";d.innerHTML=`<b>${i+1}. ${f.e}</b><br><small>p=${f.p} · ε=${f.eps} · reward=${f.r}</small>`;d.onclick=()=>render(i);events.appendChild(d)});
+render(0);
+</script></body></html>
