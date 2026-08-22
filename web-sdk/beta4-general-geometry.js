@@ -1,0 +1,1 @@
+class TopoSpaceBeta4 extends HTMLElement{connectedCallback(){this.innerHTML="<h2>Generalized Geometry Runtime</h2><p>Lp · Chebyshev · OWA · Nested · Guarantee Tracking · Chain Distance</p>"}}customElements.define("topospace-beta4",TopoSpaceBeta4);
