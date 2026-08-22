@@ -1,0 +1,3 @@
+VERSION="1.3.0-beta1"
+API_VERSION="v1"
+STATUS="BETA"
