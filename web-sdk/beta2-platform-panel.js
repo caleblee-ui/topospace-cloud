@@ -1,0 +1,1 @@
+class TopoSpaceBeta2Panel extends HTMLElement{connectedCallback(){this.innerHTML="<h2>TopoSpace Distributed Runtime Platform</h2><p>Persistence · Idempotency · Rate Limits · Metering · Event Stream · Tracing</p>"}}customElements.define("topospace-beta2-panel",TopoSpaceBeta2Panel);
