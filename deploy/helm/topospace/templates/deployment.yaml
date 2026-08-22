@@ -1,0 +1,23 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Release.Name }}-topospace
+spec:
+  replicas: {{ .Values.replicaCount }}
+  selector:
+    matchLabels: {app: topospace}
+  template:
+    metadata:
+      labels: {app: topospace}
+    spec:
+      containers:
+      - name: topospace
+        image: "{{ .Values.image.repository }}:{{ .Values.image.tag }}"
+        imagePullPolicy: {{ .Values.image.pullPolicy }}
+        command: ["python","server/customer_app.py"]
+        ports: [{containerPort: 8787}]
+        readinessProbe:
+          httpGet: {path: /healthz, port: 8787}
+        resources:
+{{ toYaml .Values.resources | indent 10 }}
