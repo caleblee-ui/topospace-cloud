@@ -1,0 +1,1 @@
+class TopoSpaceRoutingPolicy extends HTMLElement{connectedCallback(){this.innerHTML="<h2>Learned Model Routing Policy</h2><p>Topology → Model → Quality · Cost · Latency · Success → Feedback</p>"}}customElements.define("topospace-routing-policy",TopoSpaceRoutingPolicy);
