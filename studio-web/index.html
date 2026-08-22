@@ -1,0 +1,21 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TopoSpace Web Studio v0.9</title><script src="../web-sdk/topospace-graph.js"></script>
+<style>body{margin:0;padding:24px;background:#070c16;color:#eef3ff;font-family:Inter,system-ui}p{color:#9daac1}main{max-width:1300px;margin:auto}</style></head>
+<body><main><h1>TopoSpace Web Studio v0.9</h1><p>Hybrid topology context · embeddable web visualization</p><div id="graph"></div></main>
+<script>
+TopoSpaceGraphSDK.mount("#graph",{
+ state_id:"oauth-task",
+ nodes:[
+ {id:"task",label:"OAuth Task",type:"state",score:1,topological_support:1,components:{adaptive:1,structural:1,persistence:1,drift_stability:1}},
+ {id:"auth.py",label:"auth.py",type:"code",score:.93,topological_support:.92,components:{adaptive:.98,structural:.94,persistence:.87,drift_stability:.95}},
+ {id:"oauth.py",label:"oauth.py",type:"code",score:.85,topological_support:.86,components:{adaptive:.91,structural:.86,persistence:.82,drift_stability:.90}},
+ {id:"auth_test.py",label:"auth_test.py",type:"test",score:.72,topological_support:.80,components:{adaptive:.70,structural:.74,persistence:.76,drift_stability:.90}},
+ {id:"security",label:"Security Skill",type:"skill",score:.58,topological_support:.66,components:{adaptive:.64,structural:.55,persistence:.55,drift_stability:.88}},
+ {id:"layout.py",label:"layout.py",type:"code",score:.19,topological_support:.16,components:{adaptive:.96,structural:.10,persistence:.06,drift_stability:.32}}
+ ],
+ edges:[
+ {source:"task",target:"auth.py",distance:.1,affinity:.9},{source:"auth.py",target:"oauth.py",distance:.13,affinity:.87},
+ {source:"oauth.py",target:"auth_test.py",distance:.17,affinity:.83},{source:"task",target:"security",distance:.32,affinity:.68},
+ {source:"task",target:"layout.py",distance:.76,affinity:.24}
+ ]});
+</script></body></html>
