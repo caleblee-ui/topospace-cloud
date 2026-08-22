@@ -1,0 +1,1 @@
+class TopoSpaceGAConsole extends HTMLElement{connectedCallback(){this.innerHTML="<h2>TopoSpace 1.2 GA</h2><p>Geometry · Model · Execution Path · Champion · Challenger · Rollback</p>"}}customElements.define("topospace-ga-console",TopoSpaceGAConsole);
