@@ -1,0 +1,1 @@
+export type CommercialOptimizeResponse={api_version:string;engine_version:string;request_id:string;tenant_id:string;project_id:string;latency_ms:number;result:{context?:Array<Record<string,unknown>>;team?:Array<Record<string,unknown>>;context_tokens?:number;adaptive?:Record<string,unknown>;};};
