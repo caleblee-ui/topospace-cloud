@@ -1,0 +1,8 @@
+{
+  "steps": 400,
+  "mean_memory_to_plan_before": 0.5596812949409747,
+  "mean_memory_to_plan_after": 0.5600858030961017,
+  "mean_tool_to_skill_before": 0.43596516497325005,
+  "mean_tool_to_skill_after": 0.43643624869245007,
+  "note": "Synthetic coupling-field learning regression; shows state-conditioned edge adaptation, not production agent quality."
+}
