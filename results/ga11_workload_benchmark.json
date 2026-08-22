@@ -1,0 +1,8 @@
+{
+  "runs": 1200,
+  "candidate_token_reduction_pct": 66.33900303716437,
+  "candidate_tool_reduction_pct": 67.71875,
+  "candidate_latency_reduction_pct": 66.47437135853762,
+  "mean_selected_utility": 0.7994965082752008,
+  "note": "Synthetic GA workload harness. These are candidate-space reductions, not measured production LLM billing savings."
+}
