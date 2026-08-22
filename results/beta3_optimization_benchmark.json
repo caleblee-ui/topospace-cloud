@@ -1,0 +1,8 @@
+{
+  "runs": 1000,
+  "token_reduction_pct": 70.85127466406081,
+  "tool_call_reduction_pct": 62.5,
+  "candidate_latency_reduction_pct": 70.77460551842137,
+  "mean_selected_utility": 0.8644061418833047,
+  "note": "Synthetic candidate-selection workload. Reductions are engine benchmark results, not claims about production LLM bills or end-user task quality."
+}
