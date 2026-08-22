@@ -1,0 +1,14 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>TopoSpace Operations Console</title><script src="../web-sdk/admin-console.js"></script><style>body{margin:0;background:#080e19}</style></head>
+<body><div id="app"></div><script>
+TopoSpaceAdminConsoleSDK.mount("#app",{
+ sla:{p95_ms:.024},usage:{requests:128430,context_tokens:48200000},
+ events:[
+ {objective:"OAuth agent repair",latency_ms:.021,context_tokens:4200},
+ {objective:"Recall customer contract",latency_ms:.019,context_tokens:3100},
+ {objective:"Route coding tools",latency_ms:.025,context_tokens:2700}],
+ topology:{nodes:[
+ {id:"t1",kind:"task",label:"Current Agent Task"},{id:"m1",kind:"memory",label:"Torus Memory"},
+ {id:"c1",kind:"context",label:"Code Context"},{id:"tool",kind:"tool",label:"Tool"}],
+ edges:[{source:"t1",target:"m1"},{source:"t1",target:"c1"},{source:"t1",target:"tool"}]}
+});
+</script></body></html>
