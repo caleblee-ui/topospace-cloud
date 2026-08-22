@@ -1,0 +1,129 @@
+{
+  "rows": [
+    {
+      "task": "oauth",
+      "mode": "semantic",
+      "selected": [
+        "layout.py",
+        "auth.py",
+        "oauth.py"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    {
+      "task": "oauth",
+      "mode": "adaptive",
+      "selected": [
+        "auth.py",
+        "oauth.py",
+        "layout.py"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    {
+      "task": "oauth",
+      "mode": "persistent",
+      "selected": [
+        "auth.py",
+        "layout.py",
+        "auth_test.py"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    {
+      "task": "billing",
+      "mode": "semantic",
+      "selected": [
+        "dashboard.py",
+        "billing.py",
+        "invoice.py"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    {
+      "task": "billing",
+      "mode": "adaptive",
+      "selected": [
+        "billing.py",
+        "invoice.py",
+        "dashboard.py"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    {
+      "task": "billing",
+      "mode": "persistent",
+      "selected": [
+        "billing.py",
+        "dashboard.py",
+        "billing_test.py"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    {
+      "task": "cache",
+      "mode": "semantic",
+      "selected": [
+        "metrics.py",
+        "cache.py",
+        "redis.py"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    {
+      "task": "cache",
+      "mode": "adaptive",
+      "selected": [
+        "cache.py",
+        "redis.py",
+        "metrics.py"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    {
+      "task": "cache",
+      "mode": "persistent",
+      "selected": [
+        "cache.py",
+        "metrics.py",
+        "cache_test.py"
+      ],
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    }
+  ],
+  "summary": {
+    "semantic": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    "adaptive": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    },
+    "persistent": {
+      "precision": 0.6666666666666666,
+      "recall": 0.6666666666666666,
+      "success": 0.0
+    }
+  }
+}
