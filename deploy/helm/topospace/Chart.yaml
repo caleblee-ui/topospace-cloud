@@ -1,0 +1,7 @@
+
+apiVersion: v2
+name: topospace
+description: TopoSpace commercial agent middleware runtime
+type: application
+version: 3.1.0
+appVersion: "3.1.0-alpha"
