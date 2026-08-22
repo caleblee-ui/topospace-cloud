@@ -1,0 +1,7 @@
+{
+  "runs": 300,
+  "mean_semantic_promotions": 8,
+  "mean_relevant_recall": 1.0,
+  "p95_layered_recall_ms": 0.052258000323490705,
+  "note": "Synthetic cognitive-memory regression; not human-memory or external agent-quality evidence."
+}
