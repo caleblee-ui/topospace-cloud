@@ -1,0 +1,7 @@
+{
+  "runs": 500,
+  "single_agent_accuracy": 0.994,
+  "consensus_accuracy": 1,
+  "gain_pp": 0.6000000000000005,
+  "note": "Synthetic independent-noise benchmark; not external multi-agent accuracy evidence."
+}
