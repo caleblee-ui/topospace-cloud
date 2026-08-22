@@ -1,0 +1,39 @@
+{
+  "success": true,
+  "steps": 2,
+  "drift_scores": [
+    0.10833333333333331,
+    0.0
+  ],
+  "replanned": [
+    true,
+    false
+  ],
+  "selected_code": [
+    [
+      "auth.py",
+      "oauth.py",
+      "layout.py"
+    ],
+    [
+      "auth.py",
+      "oauth.py",
+      "auth_test.py",
+      "layout.py"
+    ]
+  ],
+  "final_topology": {
+    "p": 1.9918281967635658,
+    "epsilon": 0.35252939515947146,
+    "weights": {
+      "semantic": 1.0027422715886802,
+      "structural": 0.996525915517965,
+      "temporal": 0.1998019478927507,
+      "risk": 0.39935683582530107,
+      "cost": 0.2006674646924879,
+      "reliability": 0.6027555498248602,
+      "path": 0.9985324657413426,
+      "symbol": 1.2078043733242125
+    }
+  }
+}
