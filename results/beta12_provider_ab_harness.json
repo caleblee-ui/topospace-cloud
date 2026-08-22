@@ -1,0 +1,9 @@
+{
+  "tasks": 1000,
+  "mean_input_token_saving_pct": 41.053623303427095,
+  "mean_total_token_saving_pct": 36.02206364905816,
+  "mean_latency_saving_pct": 16.228416764169836,
+  "mean_tool_call_saving_pct": 45.17583333333334,
+  "mean_quality_delta": 0.005088814968714132,
+  "note": "Synthetic provider-usage A/B harness. Validates measurement pipeline only; live model/API experiments are required for marketing claims."
+}
