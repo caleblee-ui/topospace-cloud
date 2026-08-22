@@ -1,0 +1,24 @@
+{
+  "shadow": {
+    "samples": 250,
+    "challenger_win_rate": 1.0,
+    "mean_gain": 0.04920000000000004,
+    "violations": 0
+  },
+  "promotion": {
+    "promote": true,
+    "reasons": []
+  },
+  "healthy_rollback": {
+    "rollback": false,
+    "reasons": []
+  },
+  "bad_rollback": {
+    "rollback": true,
+    "reasons": [
+      "error_rate",
+      "reward_drop",
+      "latency_regression"
+    ]
+  }
+}
