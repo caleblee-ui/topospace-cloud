@@ -1,0 +1,10 @@
+{
+  "runs": 500,
+  "mean_token_reduction": 0.8608614510631394,
+  "median_token_reduction": 0.862733140110956,
+  "mean_relevant_recall": 0.9968333333333333,
+  "p95_engine_ms": 0.16781900012574624,
+  "memory_records_before": 30,
+  "memory_records_after": 10,
+  "note": "Synthetic topology-routing benchmark; marketing claims require representative real workloads."
+}
