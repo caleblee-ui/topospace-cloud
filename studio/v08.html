@@ -1,0 +1,39 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>TopoSpace Studio v0.8</title>
+<style>
+body{font-family:Inter,system-ui;background:#09101d;color:#eef3ff;margin:0}
+header{padding:18px 24px;border-bottom:1px solid #24334e;display:flex;justify-content:space-between}
+main{display:grid;grid-template-columns:1fr 390px;height:calc(100vh - 66px)}
+#canvas{position:relative}.node{position:absolute;padding:9px 12px;background:#152038;border:1px solid #53698f;border-radius:20px}
+.side{border-left:1px solid #24334e;padding:18px;overflow:auto}.metric{display:flex;justify-content:space-between;padding:6px 0}
+.row{padding:9px;background:#131d30;border-radius:8px;margin:7px 0}.bar{height:8px;background:#25344e;border-radius:6px;overflow:hidden}.fill{height:100%;background:#8ba4d5}
+small{color:#9aabc7}
+</style></head><body>
+<header><b>TopoSpace Studio v0.8 · Homology & Planning</b><span>Agent topology lab</span></header>
+<main><div id="canvas"></div><aside class="side">
+<h3>Persistent homology</h3>
+<div class="metric"><span>ε</span><b id="eps">0.10</b></div>
+<div class="metric"><span>β₀</span><b id="b0">4</b></div>
+<div class="metric"><span>β₁</span><b id="b1">0</b></div>
+<input id="slider" type="range" min="0" max="4" value="0" style="width:100%">
+<h3>Topology-aware plan</h3><div id="plan" class="row"></div>
+<h3>Persistent context</h3><div id="ctx"></div>
+</aside></main>
+<script>
+const frames=[
+{e:.10,b0:4,b1:0,n:[["Task",1],["auth.py",.9],["oauth.py",.7],["layout.py",.1]]},
+{e:.14,b0:2,b1:0,n:[["Task",1],["auth.py",.95],["oauth.py",.88],["auth_test.py",.72]]},
+{e:.20,b0:1,b1:0,n:[["Task",1],["auth.py",.96],["oauth.py",.93],["auth_test.py",.86]]},
+{e:.50,b0:1,b1:1,n:[["Task",1],["auth.py",.96],["oauth.py",.93],["auth_test.py",.86],["Tool",.6]]},
+{e:.75,b0:1,b1:0,n:[["Task",1],["auth.py",.96],["oauth.py",.93],["auth_test.py",.86],["layout.py",.2]]}
+];
+function render(i){
+ const f=frames[i];eps.textContent=f.e.toFixed(2);b0.textContent=f.b0;b1.textContent=f.b1;
+ canvas.innerHTML="";ctx.innerHTML="";
+ f.n.forEach((x,j)=>{const d=document.createElement("div");d.className="node";d.textContent=x[0];
+ const a=2*Math.PI*j/f.n.length,r=j?190:0;d.style.left=`calc(48% + ${Math.cos(a)*r}px)`;d.style.top=`calc(43% + ${Math.sin(a)*r}px)`;canvas.appendChild(d);
+ if(j){const r=document.createElement("div");r.className="metric";r.innerHTML=`<span>${x[0]}</span><b>${x[1].toFixed(2)}</b>`;ctx.appendChild(r);}});
+ plan.innerHTML="<b>Task → auth.py → oauth.py → auth_test.py</b><br><small>Persistence bonus lowers stable-context path cost.</small>";
+}
+slider.oninput=e=>render(+e.target.value);render(0);
+</script></body></html>
