@@ -1,0 +1,26 @@
+{
+  "profiles": {
+    "lp1": {
+      "mean_selected": 0.932,
+      "mean_precision": 1.0,
+      "policy_security_violations_selected": 0
+    },
+    "lp2": {
+      "mean_selected": 6.202,
+      "mean_precision": 0.9700238095238095,
+      "policy_security_violations_selected": 0
+    },
+    "chebyshev": {
+      "mean_selected": 14.132,
+      "mean_precision": 0.43772222091633856,
+      "policy_security_violations_selected": 0
+    },
+    "nested": {
+      "mean_selected": 22.066,
+      "mean_precision": 0.27484925521644865,
+      "policy_security_violations_selected": 0
+    }
+  },
+  "lp1_vs_nested_top5_different_queries": 10,
+  "note": "Synthetic geometry-behavior benchmark. Different admissible aggregators intentionally encode different operational preferences; no universal precision dominance is claimed."
+}
