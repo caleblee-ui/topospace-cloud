@@ -1,0 +1,20 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TopoSpace Closed Loop v1.4</title>
+<style>
+body{margin:0;background:#070c16;color:#edf3ff;font-family:Inter,system-ui}main{max-width:1200px;margin:auto;padding:28px}
+.flow{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.box{background:#121c30;border:1px solid #2c3c58;padding:18px;border-radius:12px}
+.arrow{text-align:center;color:#8fa4ca;padding:8px}.metric{display:flex;justify-content:space-between;padding:5px 0}.trace{margin-top:20px}
+@media(max-width:760px){.flow{grid-template-columns:1fr}}
+</style></head><body><main><h1>TopoSpace v1.4 · Closed-loop Agent Runtime</h1>
+<div class="flow">
+<div class="box"><b>1. State</b><p>OAuth bug</p></div>
+<div class="box"><b>2. Topology</b><p>p=1.62 · ε=0.28</p></div>
+<div class="box"><b>3. Context</b><p>auth.py · oauth.py</p></div>
+<div class="box"><b>4. Action</b><p>run tests</p></div>
+<div class="box"><b>5. Observation</b><p>missing auth_test.py</p></div>
+<div class="box"><b>6. Drift</b><p>new test node enters</p></div>
+<div class="box"><b>7. Learning</b><p>reward updates p,w,ε</p></div>
+<div class="box"><b>8. Replan</b><p>context rebuilt → success</p></div>
+</div>
+<div class="trace"><h3>Closed-loop equation</h3><div class="box">State → Topology → Context → Action → Observation → Drift → Reward → Learning → Replan</div></div>
+</main></body></html>
