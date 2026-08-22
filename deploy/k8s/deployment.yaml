@@ -1,0 +1,37 @@
+
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: topospace
+spec:
+  replicas: 3
+  selector:
+    matchLabels: {app: topospace}
+  template:
+    metadata:
+      labels: {app: topospace}
+    spec:
+      containers:
+      - name: topospace
+        image: topospace:2.3
+        command: ["python","server/enterprise_app.py"]
+        ports: [{containerPort: 8787}]
+        readinessProbe:
+          httpGet: {path: /health, port: 8787}
+          initialDelaySeconds: 3
+          periodSeconds: 5
+        livenessProbe:
+          httpGet: {path: /health, port: 8787}
+          initialDelaySeconds: 10
+          periodSeconds: 10
+        resources:
+          requests: {cpu: "250m", memory: "256Mi"}
+          limits: {cpu: "2", memory: "2Gi"}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: topospace
+spec:
+  selector: {app: topospace}
+  ports: [{port: 80, targetPort: 8787}]
