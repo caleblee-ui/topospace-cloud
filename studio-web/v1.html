@@ -1,0 +1,15 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TopoSpace Studio v1</title><script src="../web-sdk/topospace-graph-v1.js"></script>
+<style>body{margin:0;background:#070c16;color:#eef4ff;font-family:Inter,system-ui}main{max-width:1400px;margin:auto;padding:24px}button{margin-right:8px}</style></head>
+<body><main><h1>TopoSpace Studio v1</h1><p>Live graph · drag · zoom · clustering · time travel</p><p><button id="cluster">Cluster by type</button><button id="replay">Load replay</button></p><div id="graph"></div></main>
+<script>
+const f1={payload:{nodes:[
+{id:"task",label:"OAuth Task",type:"state",score:1},{id:"auth",label:"auth.py",type:"code",score:.93},{id:"layout",label:"layout.py",type:"code",score:.18}],
+edges:[{source:"task",target:"auth",affinity:.9},{source:"task",target:"layout",affinity:.2}]}};
+const f2={payload:{nodes:[
+{id:"task",label:"OAuth Task",type:"state",score:1},{id:"auth",label:"auth.py",type:"code",score:.95},{id:"oauth",label:"oauth.py",type:"code",score:.87},{id:"test",label:"auth_test.py",type:"test",score:.76},{id:"skill",label:"Security Skill",type:"skill",score:.58}],
+edges:[{source:"task",target:"auth",affinity:.9},{source:"auth",target:"oauth",affinity:.87},{source:"oauth",target:"test",affinity:.83},{source:"task",target:"skill",affinity:.65}]}};
+const graph=TopoSpaceGraphV1SDK.mount("#graph",f2.payload);
+cluster.onclick=()=>graph.clusterByType();
+replay.onclick=()=>graph.setHistory([f1,f2]);
+</script></body></html>
