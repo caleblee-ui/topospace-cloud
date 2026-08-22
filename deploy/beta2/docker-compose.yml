@@ -1,0 +1,8 @@
+services:
+  topospace-runtime:
+    build: {context: ../.., dockerfile: deploy/beta/Dockerfile}
+    ports: ["8788:8788"]
+  redis: {image: redis:7-alpine}
+  postgres:
+    image: postgres:16-alpine
+    environment: {POSTGRES_USER: topospace, POSTGRES_PASSWORD: topospace, POSTGRES_DB: topospace}
