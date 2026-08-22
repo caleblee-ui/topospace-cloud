@@ -1,0 +1,50 @@
+{
+  "exploratory": {
+    "aggregator": "lp",
+    "p": 2.5,
+    "epsilon": 0.525,
+    "confidence": 0.5287067494592332,
+    "probabilities": {
+      "lp": 0.5287067494592332,
+      "chebyshev": 0.15534509165923618,
+      "owa": 0.15824284713043166,
+      "nested": 0.15770531175109895
+    }
+  },
+  "security_critical": {
+    "aggregator": "chebyshev",
+    "p": 2.5,
+    "epsilon": 0.525,
+    "confidence": 0.6632006680796583,
+    "probabilities": {
+      "lp": 0.08306886317725623,
+      "chebyshev": 0.6632006680796583,
+      "owa": 0.07783595999621783,
+      "nested": 0.17589450874686777
+    }
+  },
+  "hierarchical_workspace": {
+    "aggregator": "nested",
+    "p": 2.5,
+    "epsilon": 0.525,
+    "confidence": 0.6491077137441233,
+    "probabilities": {
+      "lp": 0.12207876904213114,
+      "chebyshev": 0.11096779445619502,
+      "owa": 0.11784572275755052,
+      "nested": 0.6491077137441233
+    }
+  },
+  "candidate_overload": {
+    "aggregator": "owa",
+    "p": 2.5,
+    "epsilon": 0.525,
+    "confidence": 0.4229302057460922,
+    "probabilities": {
+      "lp": 0.20134357305727021,
+      "chebyshev": 0.19071290012966963,
+      "owa": 0.4229302057460922,
+      "nested": 0.1850133210669679
+    }
+  }
+}
