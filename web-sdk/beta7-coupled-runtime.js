@@ -1,0 +1,1 @@
+class TopoSpaceBeta7 extends HTMLElement{connectedCallback(){this.innerHTML="<h2>Cross-Domain Coupled Geometry Runtime</h2><p>Memory ↔ Tool ↔ Skill ↔ Planning</p><p>Joint product space · iterative coupling · constraint-preserving convergence</p>"}}customElements.define("topospace-beta7",TopoSpaceBeta7);
