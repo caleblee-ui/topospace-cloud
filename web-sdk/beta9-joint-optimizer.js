@@ -1,0 +1,1 @@
+class TopoSpaceBeta9 extends HTMLElement{connectedCallback(){this.innerHTML="<h2>Joint Geometry Optimizer</h2><p>Aθ + Cθ(s) jointly learned</p><p>Reward · Token Cost · Latency · Constraints · Stability</p>"}}customElements.define("topospace-beta9",TopoSpaceBeta9);
