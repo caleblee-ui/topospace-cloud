@@ -1,0 +1,1 @@
+class TopoSpaceBeta6 extends HTMLElement{connectedCallback(){this.innerHTML="<h2>Unified Adaptive Agent Runtime</h2><p>Memory · Tool · Skill · Planning</p><p>Geometry Policy + Hard Constraint Gate + Feedback Learning</p>"}}customElements.define("topospace-beta6",TopoSpaceBeta6);
