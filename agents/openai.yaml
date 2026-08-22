@@ -1,0 +1,8 @@
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "topospace-torus-memory"
+      description: "Topological TorusDB agent memory recall and storage"
+      transport: "streamable_http"
+      url: "https://YOUR_TOPOSPACE_HOST/mcp"
