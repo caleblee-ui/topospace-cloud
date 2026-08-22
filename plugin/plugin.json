@@ -1,0 +1,10 @@
+{
+  "name": "topospace-torus-memory",
+  "version": "2.6.0-alpha",
+  "description": "Topological Agent Memory optimization backed by TorusDB",
+  "skills": "../skills/",
+  "mcp": {
+    "name": "topospace-torus-memory",
+    "url": "https://YOUR_TOPOSPACE_HOST/mcp"
+  }
+}
