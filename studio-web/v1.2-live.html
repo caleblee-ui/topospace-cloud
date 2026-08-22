@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>TopoSpace Live Studio v1.2</title><script src="../web-sdk/topospace-graph-v1.2.js"></script>
+<style>body{margin:0;background:#070c16;color:#eef4ff;font-family:Inter,system-ui}main{max-width:1440px;margin:auto;padding:24px}.bar{display:flex;gap:8px;margin-bottom:12px}button,input{padding:8px}</style></head>
+<body><main><h1>TopoSpace Live Studio v1.2</h1><div class="bar"><input id="api" value="http://localhost:8787"><input id="workspace" value="demo"><button id="connect">Connect live</button><span id="status">offline</span></div><div id="graph"></div></main>
+<script type="module">
+import {TopoSpaceLiveClient} from "../web-sdk/topospace-live.js";
+const graph=TopoSpaceGraphV12SDK.mount("#graph",{nodes:[],edges:[]});let client;
+connect.onclick=async()=>{if(client)client.close();client=new TopoSpaceLiveClient(graph,api.value,workspace.value);await client.loadLatest();client.connect();status.textContent="live";};
+</script></body></html>
