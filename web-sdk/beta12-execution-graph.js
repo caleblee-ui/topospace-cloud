@@ -1,0 +1,1 @@
+class TopoSpaceExecGraph extends HTMLElement{connectedCallback(){this.innerHTML="<h2>Topology-Aware Execution Graph</h2><p>Memory → Primary Model → Tool → Conditional Escalation</p><p>Stop early when confidence is sufficient.</p>"}}customElements.define("topospace-exec-graph",TopoSpaceExecGraph);
