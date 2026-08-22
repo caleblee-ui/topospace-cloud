@@ -1,0 +1,9 @@
+{
+  "tail_profile_counts": {
+    "conservative": 6,
+    "balanced": 15,
+    "efficient": 39
+  },
+  "observations": 180,
+  "note": "Synthetic learning convergence fixture; not customer performance evidence."
+}
