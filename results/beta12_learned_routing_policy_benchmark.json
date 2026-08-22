@@ -1,0 +1,7 @@
+{
+  "contexts": 3000,
+  "pre_learning_match_rate": 0.334,
+  "post_learning_match_rate": 1.0,
+  "improvement_points": 66.6,
+  "note": "Constructed synthetic regression benchmark; validates topology-conditioned learning, not live provider superiority."
+}
