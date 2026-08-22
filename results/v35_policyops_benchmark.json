@@ -1,0 +1,19 @@
+{
+  "promotion": {
+    "promote": true,
+    "reasons": []
+  },
+  "rollback": {
+    "rollback": true,
+    "reasons": [
+      "error_rate",
+      "success_drop",
+      "latency_regression"
+    ]
+  },
+  "concept_drift": {
+    "drift": true,
+    "psi": 17.884034635873938,
+    "threshold": 0.2
+  }
+}
