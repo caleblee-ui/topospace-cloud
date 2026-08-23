@@ -2,6 +2,8 @@
 
 **Version 1.3.0-beta1** · **PolyForm Noncommercial 1.0.0** · **Python 3.10+**
 
+**Published by [J1729Labs](https://j1729labs.site), the operating research institution behind TopoSpace.** The public repository is maintained under the technical account `caleblee-ui`; that account namespace does not replace the J1729Labs publisher identity.
+
 TopoSpace is a provider-neutral **AI Execution Optimization Plane**. It is not an AI model. It coordinates context selection, model routing, execution paths, and token budgets before and around model execution.
 
 - Product page: [J1729Labs / TopoSpace](https://j1729labs.site/topospace)
